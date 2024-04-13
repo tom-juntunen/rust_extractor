@@ -3,7 +3,7 @@ use std::fs::{self, File, OpenOptions};
 use std::io::{self, BufReader, Write, BufWriter};
 use csv::Writer;
 use std::collections::HashMap;
-use std::path::PathBuf;
+use std::path::{PathBuf, Path};
 use strsim::normalized_damerau_levenshtein;
 use reqwest::blocking::Client;
 use rust_bert::pipelines::sentence_embeddings::{SentenceEmbeddingsBuilder, SentenceEmbeddingsModelType};
@@ -72,11 +72,16 @@ fn visit_dirs(dir: &PathBuf, reference: &str, verse_map: &mut HashMap<String, Ve
 }
 
 fn process_verses(verse_map: &mut HashMap<String, Vec<TranslationDetail>>, reference: &str, translations_dir: &PathBuf) -> Result<(), Box<dyn std::error::Error>> {
+    // First, visit directories and populate the verse_map
     visit_dirs(translations_dir, reference, verse_map)?;
 
+    // Iterate through each translation in verse_map
     for (_key, translations) in verse_map.iter_mut() {
         for translation in translations.iter_mut() {
-            let cleaned_translation = translation.text.replace('\n', " ");
+            // Replace newlines with spaces and trim leading/trailing whitespace
+            let cleaned_translation = translation.text.replace('\n', " ").trim().to_string();
+
+            // Generate embeddings for the cleaned and trimmed text
             match generate_embeddings(&cleaned_translation) {
                 Ok(embedding) => translation.embedding = embedding,
                 Err(e) => eprintln!("Failed to generate embeddings for {} due to {}", translation.name, e),
@@ -112,11 +117,19 @@ fn generate_embeddings(cleaned_translation: &str) -> Result<Vec<f32>, Box<dyn st
 // Function to write the data to a CSV file
 fn write_to_csv(verse_map: &HashMap<String, Vec<TranslationDetail>>) -> Result<(), Box<dyn std::error::Error>> {
     let path = "similarity_report.csv";
-    let file = File::create(path)?;
+    let file_exists = Path::new(path).exists();
+    
+    let file = OpenOptions::new()
+        .create(true) // Create the file if it does not exist.
+        .append(true) // Append to the file if it exists.
+        .open(path)?;
+
     let mut wtr = Writer::from_writer(BufWriter::new(file));
 
-    // Write the header
-    wtr.write_record(["Verse Key", "Translation 1", "Translation 2", "Similarity", "Text 1", "Text 2"])?;
+    // Write the header only if the file did not exist
+    if !file_exists {
+        wtr.write_record(["Verse Key", "Translation 1", "Translation 2", "Similarity", "Text 1", "Text 2"])?;
+    }
 
     // Iterate over your data and write each record, ensuring automatic quoting where necessary
     for (key, translations) in verse_map {
@@ -159,7 +172,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         ("rccv", "Protestant Romanian Corrected Cornilescu Version"),
     ];
 
-    let reference = "matthew 5:12";
+    let reference = "job 1:3";
     let desktop_path = dirs::desktop_dir().expect("Failed to get desktop directory");
     let translations_dir = desktop_path.join("bibles");
 
