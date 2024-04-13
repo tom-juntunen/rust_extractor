@@ -32,4 +32,4 @@ ISA_22_3 translations:
 - All your rulers fled away together. They were bound by the archers. All who were found by you were bound together. They fled far away.  (World English Bible)
 - All your rulers fled away together. They were bound by the archers. All who were found by you were bound together. They fled far away.  (World English Bible, British Edition)
 
-See similarity_results.csv for finding the most similar or different translations.
+See similarity_report.csv for finding the most similar or different translations.
