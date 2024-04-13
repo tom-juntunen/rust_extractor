@@ -81,6 +81,35 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let desktop_path = dirs::desktop_dir().expect("Failed to get desktop directory");
     let translations_dir = desktop_path.join("bibles");
     
+    for (id, name) in translations.iter() {
+        let url = format!("https://bible-api.com/{}?translation={}", reference, id);
+        let response = reqwest::get(&url).await?.text().await?;
+
+        if let Ok(err) = serde_json::from_str::<ErrorResponse>(&response) {
+            if err.error == "not found" {
+                println!("Translation '{}' for {} is not available.", name, reference);
+                continue;
+            }
+        }
+
+        let verse: BibleVerse = serde_json::from_str(&response)?;
+
+        let path = translations_dir.join(&verse.verses[0].book_id).join(id);
+        fs::create_dir_all(&path)?;
+
+        let filename = format!("{}_{}_{}_{}.json", verse.verses[0].chapter, verse.verses[0].verse, verse.reference.replace(':', "_"), verse.translation_id);
+        let json_path = path.join(filename);
+
+        let mut file = OpenOptions::new()
+            .write(true)
+            .create(true)
+            .truncate(true)
+            .open(&json_path)?;
+
+        let json_data = serde_json::to_string_pretty(&verse)?;
+        file.write_all(json_data.as_bytes())?;
+        println!("Bible verse data for {} saved to: {:?}", name, json_path);
+    }
 
     // Aggregate verses from all translation files
     let mut verse_map: HashMap<String, Vec<(String, String)>> = HashMap::new();
