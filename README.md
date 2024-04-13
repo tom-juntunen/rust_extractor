@@ -18,7 +18,7 @@ This version allows specifying only the following query parameters:
 The purpose of this version is to show the variation of language and interpretation across all available translations.
 Future version may include the ability to filter out or select for certain translations as well.
 
-### Example
+### Example 1
 1. Update search query to "isaiahh 22:3"
 2. Run `cargo run`
 3. View results
@@ -33,3 +33,22 @@ ISA_22_3 translations:
 - All your rulers fled away together. They were bound by the archers. All who were found by you were bound together. They fled far away.  (World English Bible, British Edition)
 
 See similarity_report.csv for finding the most similar or different translations.
+
+### Example 2
+1. Update search query to "job 1:3"
+2. Run `cargo run`
+3. View results
+
+JOB_1_3 translations:
+1. His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.	
+2. And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east.
+3. His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
+4. And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east.
+5. And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east.
+
+References
+1. King James Version
+2. Darby Bible
+3. World English Bible
+4. Douay-Rheims 1899 American Edition
+5. Bible in Basic English
