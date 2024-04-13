@@ -38,7 +38,6 @@ fn visit_dirs(dir: &PathBuf, reference: &str, verse_map: &mut HashMap<String, Ve
         if path.is_dir() {
             visit_dirs(&path, reference, verse_map)?;
         } else if path.is_file() {
-            println!("Attempting to open file: {:?}", path);
 
             let file = File::open(&path)?;
             let reader = BufReader::new(file);
@@ -46,7 +45,6 @@ fn visit_dirs(dir: &PathBuf, reference: &str, verse_map: &mut HashMap<String, Ve
 
             // We now loop through all verses in the BibleVerse object
             if let Some(verse_data) = verse.verses.iter().find(|_v| {
-                println!("Attempting to compare {} and {}", verse.reference, reference);
                 let similarity = normalized_damerau_levenshtein(&verse.reference, reference);
                 similarity >= FUZZY_MATCH_THRESHOLD
             }) {
@@ -79,39 +77,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         ("rccv", "Protestant Romanian Corrected Cornilescu Version"),
     ];
 
-    let reference = "genesis 7:24";
+    let reference = "isaiahh 22:3";
     let desktop_path = dirs::desktop_dir().expect("Failed to get desktop directory");
     let translations_dir = desktop_path.join("bibles");
     
-    for (id, name) in translations.iter() {
-        let url = format!("https://bible-api.com/{}?translation={}", reference, id);
-        let response = reqwest::get(&url).await?.text().await?;
-
-        if let Ok(err) = serde_json::from_str::<ErrorResponse>(&response) {
-            if err.error == "not found" {
-                println!("Translation '{}' for {} is not available.", name, reference);
-                continue;
-            }
-        }
-
-        let verse: BibleVerse = serde_json::from_str(&response)?;
-
-        let path = translations_dir.join(&verse.verses[0].book_id).join(id);
-        fs::create_dir_all(&path)?;
-
-        let filename = format!("{}_{}_{}_{}.json", verse.verses[0].chapter, verse.verses[0].verse, verse.reference.replace(':', "_"), verse.translation_id);
-        let json_path = path.join(filename);
-
-        let mut file = OpenOptions::new()
-            .write(true)
-            .create(true)
-            .truncate(true)
-            .open(&json_path)?;
-
-        let json_data = serde_json::to_string_pretty(&verse)?;
-        file.write_all(json_data.as_bytes())?;
-        println!("Bible verse data for {} saved to: {:?}", name, json_path);
-    }
 
     // Aggregate verses from all translation files
     let mut verse_map: HashMap<String, Vec<(String, String)>> = HashMap::new();
