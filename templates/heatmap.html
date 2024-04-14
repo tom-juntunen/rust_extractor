@@ -125,7 +125,10 @@
         }
 
         document.addEventListener('DOMContentLoaded', function() {
+            const aphorismItems = document.querySelectorAll('.aphorism-item');
+            const heatmapRects = document.querySelectorAll('.heatmap-rect');
             var highlightLocked = false;
+
             var gridSize = 50; // Adjust this based on your heatmap size and number of data points
             var gridMargin = { top: 50, right: 0, bottom: 100, left: 30 };
             var gridWidth = gridSize * Math.max(...heatmapData.map(d => d.col));
@@ -176,16 +179,18 @@
                 .attr('height', gridSize)
                 .attr('fill', function(d) { return colorScale(d.Similarity); });
 
-            // svg.selectAll('.label')
-            //     .data(heatmapData)
-            //     .enter().append('text')
-            //     .attr('class', 'label')
-            //     .attr('z-axis', 0)
-            //     .attr('x', d => xScale(d.col) + gridSize / 2)
-            //     .attr('y', d => yScale(d.row) + gridSize / 2)
-            //     .attr('dy', '.35em') // Vertical alignment
-            //     .attr('text-anchor', 'middle') // Horizontal alignment
-            //     .text(d => d.Similarity.toFixed(2)); // Two decimal places
+            svg.selectAll('.label')
+                .data(heatmapData)
+                .enter().append('text')
+                .attr('class', 'label')
+                .attr('cursor', 'pointer')
+                .attr('pointer-events', 'none')
+                .attr('z-axis', 0)
+                .attr('x', d => xScale(d.col) + gridSize / 2)
+                .attr('y', d => yScale(d.row) + gridSize / 2)
+                .attr('dy', '.35em') // Vertical alignment
+                .attr('text-anchor', 'middle') // Horizontal alignment
+                .text(d => d.Similarity.toFixed(2)); // Two decimal places
                 
             // Append a new SVG element for the legend
             var legendWidth = 300, legendHeight = 20, margin = {left: 20, right: 20, top: 20, bottom: 20};
@@ -230,91 +235,90 @@
                 .attr('transform', 'translate(0,' + legendHeight + ')')
                 .call(legendAxis);
 
+            function highlightMatchingGrids(chapter, startVerse, endVerse) {
+                heatmapRects.forEach(function(rect) {
+                    const rectChapter = parseInt(rect.getAttribute('data-chapter'));
+                    const rectStartVerse = parseInt(rect.getAttribute('data-start-verse'));
+                    const rectEndVerse = rect.getAttribute('data-end-verse') ? parseInt(rect.getAttribute('data-end-verse')) : rectStartVerse;
+
+                    if (rectChapter == chapter && ((rectStartVerse >= startVerse && rectEndVerse <= endVerse) || (rectStartVerse >= startVerse && !endVerse))) {
+                        rect.classList.add('highlighted');
+                    }
+                });
+            }
+
+            function highlightMatchingAphorisms(chapter, verse) {
+                aphorismItems.forEach(function(aphorism) {
+                    const referenceText = aphorism.querySelector('.aphorism-content p:first-child').textContent.trim();
+                    const reference = referenceText.split('Reference:')[1].trim();
+                    const match = parseReference(reference);
+                    if (!match) return;
+
+                    const [aphorismChapter, aphorismStartVerse, aphorismEndVerse] = match;
+
+                    if (aphorismChapter == chapter && ((aphorismStartVerse <= verse && verse <= aphorismEndVerse) | (phorismStartVerse <= verse && !aphorismEndVerse))) {
+                        aphorism.classList.add('highlighted');
+                        aphorism.querySelector('.aphorism-content').classList.add('visible');
+                    }
+                });
+            }
+
+            function clearHighlights() {
+                document.querySelectorAll('.highlighted').forEach(function(el) {
+                    el.classList.remove('highlighted');
+                    el.querySelector('.aphorism-content')?.classList.remove('visible');
+                });
+            }
+
             var highlights = svg.append('g').classed('highlights', true);
     
-            document.querySelectorAll('.aphorism-item').forEach(function(item) {
+            aphorismItems.forEach(function(item) {
                 item.addEventListener('mouseover', function() {
-
-                    // Select the first <p> tag specifically
-                    var referenceP = this.querySelector('.aphorism-content p:first-child');
-                    var referenceText = referenceP.textContent.trim();
-                    // Extract the text after "Reference:"
-                    var reference = referenceText.split('Reference:')[1].trim();
-                    var match = parseReference(reference);
+                    if (highlightLocked) return;
+                    clearHighlights();
+                    const referenceP = this.querySelector('.aphorism-content p:first-child');
+                    const referenceText = referenceP.textContent.trim();
+                    const reference = referenceText.split('Reference:')[1].trim();
+                    const match = parseReference(reference);
                     if (!match) {
                         console.error('Reference format error:', reference);
                         return;
                     }
-    
-                    var [chapter, startVerse, endVerse] = match;                       
-            
-                    // Draw new highlights
-                    heatmapData.forEach(function(d) {
-                        if (d.row == chapter && ((d.col >= startVerse && d.col <= endVerse) || (d.col == startVerse && !endVerse))) {
-                            highlights.append('rect')
-                                .attr('x', (d.col - 1) * gridSize)
-                                .attr('y', (d.row - 1) * gridSize)
-                                .attr('width', gridSize)
-                                .attr('height', gridSize)
-                                .attr('fill', 'none') // No fill, only border
-                                .attr('stroke', 'red') // Red border
-                                .attr('stroke-width', 2);
-                        }
-                    });
-                });
-    
-                item.addEventListener('mouseout', function() {
-                    // Clear any existing highlights
-                    highlights.selectAll('rect').remove();
-                });
+                    const [chapter, startVerse, endVerse] = match;
+                    highlightMatchingGrids(chapter, startVerse, endVerse);
+                    item.classList.add('highlighted');
+                    item.querySelector('.aphorism-content').classList.add('visible');
             });
 
-            document.querySelectorAll('.heatmap-rect').forEach(function(item) {
-                item.addEventListener('mouseover', function() {
-                    if (highlightLocked) {
-                        return; // If the highlight is locked, do nothing
-                    }
-
-                // Clear all existing highlights if not locked
-                document.querySelectorAll('.aphorism-item.highlighted').forEach(function(highlightedItem) {
-                    highlightedItem.classList.remove('highlighted');
-                    highlightedItem.querySelector('.aphorism-content').classList.remove('visible');
-                });
-                    // Extract chapter and startVerse from the hovered heatmap rectangle
-                    var chapter = parseInt(this.getAttribute('data-chapter'));
-                    var startVerse = parseInt(this.getAttribute('data-start-verse'));
-
-                    document.querySelectorAll('.aphorism-item').forEach(function(aphorism) {
-                        var referenceText = aphorism.querySelector('.aphorism-content p:first-child').textContent.trim();
-                        var reference = referenceText.split('Reference:')[1].trim();
-                        var match = parseReference(reference);
-                        if (match[0] !== null) {
-                            var [aphorismChapter, aphorismStartVerse, aphorismEndVerse] = match;
-
-                            aphorismChapter = parseInt(aphorismChapter);
-                            aphorismStartVerse = parseInt(aphorismStartVerse);
-                            aphorismEndVerse = aphorismEndVerse ? parseInt(aphorismEndVerse) : aphorismStartVerse;
-
-                            if (aphorismChapter === chapter && aphorismStartVerse <= startVerse && startVerse <= aphorismEndVerse) {
-                                aphorism.classList.add('highlighted');
-                                aphorism.querySelector('.aphorism-content').classList.add('visible');
-                                highlightLocked = true; // Lock the highlight
-                                aphorism.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-                            }
-                        }
-                    });
-                });
-            });
-
-            // Add click event handler to toggle highlight and content visibility off
-            document.querySelectorAll('.aphorism-item').forEach(function(aphorism) {
-                aphorism.addEventListener('click', function() {
-                    this.classList.remove('highlighted');
-                    this.querySelector('.aphorism-content').classList.remove('visible');
-                    highlightLocked = false; // Unlock the highlight on click
-                });
-            });
+        item.addEventListener('mouseout', function() {
+            if (highlightLocked) return;
+            clearHighlights();
         });
+    });
+
+    heatmapRects.forEach(function(rect) {
+        rect.addEventListener('mouseover', function() {
+            if (highlightLocked) return;
+            clearHighlights();
+            const chapter = parseInt(this.getAttribute('data-chapter'));
+            const startVerse = parseInt(this.getAttribute('data-start-verse'));
+            highlightMatchingAphorisms(chapter, startVerse);
+            this.classList.add('highlighted');
+        });
+
+        rect.addEventListener('mouseout', function() {
+            if (highlightLocked) return;
+            clearHighlights();
+        });
+    });
+
+    // Lock and unlock highlights on click
+    document.querySelectorAll('.aphorism-item, .heatmap-rect').forEach(function(el) {
+        el.addEventListener('click', function() {
+            highlightLocked = !highlightLocked;
+        });
+    });
+});
     </script>
 </body>
 </html>
