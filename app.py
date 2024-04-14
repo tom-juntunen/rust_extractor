@@ -6,8 +6,11 @@ app = Flask(__name__)
 
 
 def load_aphorisms():
-    with open('data/aphorisms.json', 'r') as file:
-        aphorisms = json.load(file)
+    with open('data/aphorisms.json', 'r', encoding='utf-8') as file:
+        json_string = file.read()
+        json_string_replaced = json_string.replace('“', "'").replace('”', "'")
+        aphorisms = json.loads(json_string_replaced)
+    
     return aphorisms
 
 def load_similarity_report():
