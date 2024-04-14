@@ -42,7 +42,7 @@ if total_keys > distinct_keys:
 else:
     print("No duplicates found in the Verse Key column.")
 
-chapter = 6
+chapter = 7
 
 # Provide me some aphorisms that are abstracted to real life concepts and adages from this bible chapter 
 # In addition to explaining the bible verse, come up with a real life story too
@@ -89,18 +89,18 @@ json
     {{
         "aphorism": "Fortune is a wheel; it turns endlessly, elevating and humbling.",
         "text": "Full text of referenced verses.",
-        "translation": "World English Bible",
         "explanation": "This reflects the unpredictable nature of life's circumstances, as seen in Job’s sudden loss despite his righteousness.",
         "story": "Consider a successful entrepreneur who faces a sudden downturn due to market changes, mirroring Job’s trials and testing their resilience and moral fiber.",
-        "reference": "Job 1:1-3, 1:13-19"
+        "reference": "Job 1:1-3, 1:13-19",
+        "translation": "World English Bible"
     }},
     {{
         "aphorism": "Virtue is tested in the fires of adversity.",
         "text": "Full text of referenced verses.",
-        "translation": "World English Bible",
         "explanation": "True character is revealed through challenges, as Job maintains his integrity despite his losses.",
         "story": "A community leader continues to advocate for the needy despite facing personal tragedies, showing deep commitment to her principles.",
-        "reference": "Job 1:20-22"
+        "reference": "Job 1:20-22",
+        "translation": "World English Bible"
     }}
 ]
 
