@@ -9,7 +9,7 @@ use csv::Writer;
 use serde::{Deserialize, Serialize};
 use reqwest::blocking::Client;
 use rust_bert::pipelines::sentence_embeddings::{SentenceEmbeddingsBuilder, SentenceEmbeddingsModelType};
-
+use tch::{Device, Cuda};
 
 #[derive(Debug, Serialize, Deserialize)]
 struct BibleVerse {
@@ -140,11 +140,18 @@ fn cosine_similarity(vec1: &[f32], vec2: &[f32]) -> f32 {
 }
 
 fn generate_embeddings(sentences: &[String]) -> Result<Vec<Vec<f32>>, Box<dyn std::error::Error>> {
-    let model = SentenceEmbeddingsBuilder::remote(SentenceEmbeddingsModelType::AllMiniLmL12V2).create_model()?;
+    // Cuda not available natively in Rust
+
+    // Create the model specifying the device
+    let model = SentenceEmbeddingsBuilder::remote(SentenceEmbeddingsModelType::AllMiniLmL12V2)
+        .with_device(Device::Cpu)
+        .create_model()?;
+
+    // Encode the sentences
     let embeddings = model.encode(sentences)?;
+
     Ok(embeddings)
 }
-
 
 
 // Function to write the data to a CSV file
@@ -206,7 +213,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // let references = ["Job 3:1-26", "Job 4:1-21", "Job 5:1-27"];
     // let references = ["Job 3:1-13", "Job 3:14-26"];
-    let references = ["Job 13:1-28", "Job 14:1-22", "Job 15:1-35", "Job 16:1-22", "Job 17:1-16"];
+    let references = ["Job 22:1-30"];
     let desktop_path = dirs::desktop_dir().expect("Failed to get desktop directory");
     println!("{:?}", references);
 
