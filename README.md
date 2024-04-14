@@ -52,3 +52,25 @@ References
 3. World English Bible
 4. Douay-Rheims 1899 American Edition
 5. Bible in Basic English
+
+Avoid hitting the rate limit!
+Failed to fetch data for Bible in Basic English: HTTP Status 429 Too Many Requests
+Failed to fetch data for Darby Bible: HTTP Status 429 Too Many Requests
+Failed to fetch data for Douay-Rheims 1899 American Edition: HTTP Status 429 Too Many Requests
+Failed to fetch data for King James Version: HTTP Status 429 Too Many Requests
+Failed to fetch data for World English Bible: HTTP Status 429 Too Many Requests
+Failed to fetch data for Young's Literal Translation: HTTP Status 429 Too Many Requests
+Failed to fetch data for Open English Bible, Commonwealth Edition: HTTP Status 429 Too Many Requests
+Failed to fetch data for World English Bible, British Edition: HTTP Status 429 Too Many Requests
+Failed to fetch data for Open English Bible, US Edition: HTTP Status 429 Too Many Requests
+Failed to fetch data for Clementine Latin Vulgate: HTTP Status 429 Too Many Requests
+Failed to fetch data for Protestant Romanian Corrected Cornilescu Version: HTTP Status 429 Too Many Requests
+
+Make a visualization
+```
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python .\viz.py
+```
+![Translation Similarity of Job](images/job_draft.png)

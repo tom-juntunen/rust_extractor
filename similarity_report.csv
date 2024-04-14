@@ -1,239 +1,1058 @@
-Verse Key,Translation 1,Translation 2,Similarity,Text 1,Text 2
-MAT_5_12,American Standard Version (1901),Bible in Basic English,0.86,"Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets that were before you.",Be glad and full of joy; for great is your reward in heaven: for so were the prophets attacked who were before you.
-MAT_5_12,American Standard Version (1901),Darby Bible,0.88,"Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets that were before you.","Rejoice and exult, for your reward is great in the heavens; for thus have they persecuted the prophets who were before you."
-MAT_5_12,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.88,"Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets that were before you.","Be glad and rejoice, for your reward is very great in heaven. For so they persecuted the prophets that were before you."
-MAT_5_12,American Standard Version (1901),King James Version,1.00,"Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets that were before you.","Rejoice, and be exceeding glad: for great
-is your reward in heaven: for so persecuted they the prophets which were before you.
+Verse Key,Book ID,Chapter,Verse,Translation 1,Translation 2,Similarity,Text 1,Text 2
+JOB_1_2,JOB,1,2,American Standard Version (1901),Bible in Basic English,0.85,And there were born unto him seven sons and three daughters.,And he had seven sons and three daughters.
+JOB_1_2,JOB,1,2,American Standard Version (1901),Darby Bible,0.95,And there were born unto him seven sons and three daughters.,And there were born to him seven sons and three daughters.
+JOB_1_2,JOB,1,2,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.95,And there were born unto him seven sons and three daughters.,And there were born to him seven sons and three daughters.
+JOB_1_2,JOB,1,2,American Standard Version (1901),King James Version,1.00,And there were born unto him seven sons and three daughters.,"And there were born unto him seven sons and three daughters.
 "
-MAT_5_12,American Standard Version (1901),"Open English Bible, Commonwealth Edition",0.86,"Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets that were before you.","Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
+JOB_1_2,JOB,1,2,American Standard Version (1901),World English Bible,0.91,And there were born unto him seven sons and three daughters.,"There were born to him seven sons and three daughters.
 "
-MAT_5_12,American Standard Version (1901),"Open English Bible, US Edition",0.86,"Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets that were before you.","Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
+JOB_1_2,JOB,1,2,American Standard Version (1901),"World English Bible, British Edition",0.91,And there were born unto him seven sons and three daughters.,"There were born to him seven sons and three daughters.
 "
-MAT_5_12,American Standard Version (1901),World English Bible,0.96,"Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets that were before you.","
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you.
-
+JOB_1_2,JOB,1,2,Bible in Basic English,Darby Bible,0.92,And he had seven sons and three daughters.,And there were born to him seven sons and three daughters.
+JOB_1_2,JOB,1,2,Bible in Basic English,Douay-Rheims 1899 American Edition,0.92,And he had seven sons and three daughters.,And there were born to him seven sons and three daughters.
+JOB_1_2,JOB,1,2,Bible in Basic English,King James Version,0.85,And he had seven sons and three daughters.,"And there were born unto him seven sons and three daughters.
 "
-MAT_5_12,American Standard Version (1901),"World English Bible, British Edition",0.96,"Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets that were before you.","
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted
-the prophets who were before you.
-
+JOB_1_2,JOB,1,2,Bible in Basic English,World English Bible,0.90,And he had seven sons and three daughters.,"There were born to him seven sons and three daughters.
 "
-MAT_5_12,American Standard Version (1901),Young's Literal Translation,0.74,"Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets that were before you.","
-        rejoice you and be glad, because your reward
-        is great in the heavens, for thus did they persecute the prophets who were before you."
-MAT_5_12,Bible in Basic English,Darby Bible,0.80,Be glad and full of joy; for great is your reward in heaven: for so were the prophets attacked who were before you.,"Rejoice and exult, for your reward is great in the heavens; for thus have they persecuted the prophets who were before you."
-MAT_5_12,Bible in Basic English,Douay-Rheims 1899 American Edition,0.75,Be glad and full of joy; for great is your reward in heaven: for so were the prophets attacked who were before you.,"Be glad and rejoice, for your reward is very great in heaven. For so they persecuted the prophets that were before you."
-MAT_5_12,Bible in Basic English,King James Version,0.87,Be glad and full of joy; for great is your reward in heaven: for so were the prophets attacked who were before you.,"Rejoice, and be exceeding glad: for great
-is your reward in heaven: for so persecuted they the prophets which were before you.
+JOB_1_2,JOB,1,2,Bible in Basic English,"World English Bible, British Edition",0.90,And he had seven sons and three daughters.,"There were born to him seven sons and three daughters.
 "
-MAT_5_12,Bible in Basic English,"Open English Bible, Commonwealth Edition",0.77,Be glad and full of joy; for great is your reward in heaven: for so were the prophets attacked who were before you.,"Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
+JOB_1_2,JOB,1,2,Darby Bible,Douay-Rheims 1899 American Edition,1.00,And there were born to him seven sons and three daughters.,And there were born to him seven sons and three daughters.
+JOB_1_2,JOB,1,2,Darby Bible,King James Version,0.95,And there were born to him seven sons and three daughters.,"And there were born unto him seven sons and three daughters.
 "
-MAT_5_12,Bible in Basic English,"Open English Bible, US Edition",0.77,Be glad and full of joy; for great is your reward in heaven: for so were the prophets attacked who were before you.,"Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
+JOB_1_2,JOB,1,2,Darby Bible,World English Bible,0.96,And there were born to him seven sons and three daughters.,"There were born to him seven sons and three daughters.
 "
-MAT_5_12,Bible in Basic English,World English Bible,0.81,Be glad and full of joy; for great is your reward in heaven: for so were the prophets attacked who were before you.,"
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you.
-
+JOB_1_2,JOB,1,2,Darby Bible,"World English Bible, British Edition",0.96,And there were born to him seven sons and three daughters.,"There were born to him seven sons and three daughters.
 "
-MAT_5_12,Bible in Basic English,"World English Bible, British Edition",0.81,Be glad and full of joy; for great is your reward in heaven: for so were the prophets attacked who were before you.,"
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted
-the prophets who were before you.
-
+JOB_1_2,JOB,1,2,Douay-Rheims 1899 American Edition,King James Version,0.95,And there were born to him seven sons and three daughters.,"And there were born unto him seven sons and three daughters.
 "
-MAT_5_12,Bible in Basic English,Young's Literal Translation,0.70,Be glad and full of joy; for great is your reward in heaven: for so were the prophets attacked who were before you.,"
-        rejoice you and be glad, because your reward
-        is great in the heavens, for thus did they persecute the prophets who were before you."
-MAT_5_12,Darby Bible,Douay-Rheims 1899 American Edition,0.80,"Rejoice and exult, for your reward is great in the heavens; for thus have they persecuted the prophets who were before you.","Be glad and rejoice, for your reward is very great in heaven. For so they persecuted the prophets that were before you."
-MAT_5_12,Darby Bible,King James Version,0.88,"Rejoice and exult, for your reward is great in the heavens; for thus have they persecuted the prophets who were before you.","Rejoice, and be exceeding glad: for great
-is your reward in heaven: for so persecuted they the prophets which were before you.
+JOB_1_2,JOB,1,2,Douay-Rheims 1899 American Edition,World English Bible,0.96,And there were born to him seven sons and three daughters.,"There were born to him seven sons and three daughters.
 "
-MAT_5_12,Darby Bible,"Open English Bible, Commonwealth Edition",0.77,"Rejoice and exult, for your reward is great in the heavens; for thus have they persecuted the prophets who were before you.","Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
+JOB_1_2,JOB,1,2,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.96,And there were born to him seven sons and three daughters.,"There were born to him seven sons and three daughters.
 "
-MAT_5_12,Darby Bible,"Open English Bible, US Edition",0.77,"Rejoice and exult, for your reward is great in the heavens; for thus have they persecuted the prophets who were before you.","Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
+JOB_1_2,JOB,1,2,King James Version,World English Bible,0.91,"And there were born unto him seven sons and three daughters.
+","There were born to him seven sons and three daughters.
 "
-MAT_5_12,Darby Bible,World English Bible,0.87,"Rejoice and exult, for your reward is great in the heavens; for thus have they persecuted the prophets who were before you.","
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you.
-
+JOB_1_2,JOB,1,2,King James Version,"World English Bible, British Edition",0.91,"And there were born unto him seven sons and three daughters.
+","There were born to him seven sons and three daughters.
 "
-MAT_5_12,Darby Bible,"World English Bible, British Edition",0.87,"Rejoice and exult, for your reward is great in the heavens; for thus have they persecuted the prophets who were before you.","
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted
-the prophets who were before you.
-
+JOB_1_2,JOB,1,2,World English Bible,"World English Bible, British Edition",1.00,"There were born to him seven sons and three daughters.
+","There were born to him seven sons and three daughters.
 "
-MAT_5_12,Darby Bible,Young's Literal Translation,0.75,"Rejoice and exult, for your reward is great in the heavens; for thus have they persecuted the prophets who were before you.","
-        rejoice you and be glad, because your reward
-        is great in the heavens, for thus did they persecute the prophets who were before you."
-MAT_5_12,Douay-Rheims 1899 American Edition,King James Version,0.87,"Be glad and rejoice, for your reward is very great in heaven. For so they persecuted the prophets that were before you.","Rejoice, and be exceeding glad: for great
-is your reward in heaven: for so persecuted they the prophets which were before you.
+JOB_1_3,JOB,1,3,American Standard Version (1901),Bible in Basic English,0.71,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east."
+JOB_1_3,JOB,1,3,American Standard Version (1901),Darby Bible,0.91,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east."
+JOB_1_3,JOB,1,3,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.83,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east."
+JOB_1_3,JOB,1,3,American Standard Version (1901),King James Version,0.97,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
 "
-MAT_5_12,Douay-Rheims 1899 American Edition,"Open English Bible, Commonwealth Edition",0.92,"Be glad and rejoice, for your reward is very great in heaven. For so they persecuted the prophets that were before you.","Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
+JOB_1_3,JOB,1,3,American Standard Version (1901),World English Bible,0.86,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
 "
-MAT_5_12,Douay-Rheims 1899 American Edition,"Open English Bible, US Edition",0.92,"Be glad and rejoice, for your reward is very great in heaven. For so they persecuted the prophets that were before you.","Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
-"
-MAT_5_12,Douay-Rheims 1899 American Edition,World English Bible,0.93,"Be glad and rejoice, for your reward is very great in heaven. For so they persecuted the prophets that were before you.","
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you.
-
-"
-MAT_5_12,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.93,"Be glad and rejoice, for your reward is very great in heaven. For so they persecuted the prophets that were before you.","
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted
-the prophets who were before you.
-
-"
-MAT_5_12,Douay-Rheims 1899 American Edition,Young's Literal Translation,0.85,"Be glad and rejoice, for your reward is very great in heaven. For so they persecuted the prophets that were before you.","
-        rejoice you and be glad, because your reward
-        is great in the heavens, for thus did they persecute the prophets who were before you."
-MAT_5_12,King James Version,"Open English Bible, Commonwealth Edition",0.85,"Rejoice, and be exceeding glad: for great
-is your reward in heaven: for so persecuted they the prophets which were before you.
-","Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
-"
-MAT_5_12,King James Version,"Open English Bible, US Edition",0.85,"Rejoice, and be exceeding glad: for great
-is your reward in heaven: for so persecuted they the prophets which were before you.
-","Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
-"
-MAT_5_12,King James Version,World English Bible,0.95,"Rejoice, and be exceeding glad: for great
-is your reward in heaven: for so persecuted they the prophets which were before you.
-","
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you.
-
-"
-MAT_5_12,King James Version,"World English Bible, British Edition",0.95,"Rejoice, and be exceeding glad: for great
-is your reward in heaven: for so persecuted they the prophets which were before you.
-","
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted
-the prophets who were before you.
-
-"
-MAT_5_12,King James Version,Young's Literal Translation,0.74,"Rejoice, and be exceeding glad: for great
-is your reward in heaven: for so persecuted they the prophets which were before you.
-","
-        rejoice you and be glad, because your reward
-        is great in the heavens, for thus did they persecute the prophets who were before you."
-MAT_5_12,"Open English Bible, Commonwealth Edition","Open English Bible, US Edition",1.00,"Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
-","Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
-"
-MAT_5_12,"Open English Bible, Commonwealth Edition",World English Bible,0.90,"Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
-","
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you.
-
-"
-MAT_5_12,"Open English Bible, Commonwealth Edition","World English Bible, British Edition",0.90,"Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
-","
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted
-the prophets who were before you.
-
-"
-MAT_5_12,"Open English Bible, Commonwealth Edition",Young's Literal Translation,0.86,"Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
-","
-        rejoice you and be glad, because your reward
-        is great in the heavens, for thus did they persecute the prophets who were before you."
-MAT_5_12,"Open English Bible, US Edition",World English Bible,0.90,"Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
-","
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you.
-
-"
-MAT_5_12,"Open English Bible, US Edition","World English Bible, British Edition",0.90,"Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
-","
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted
-the prophets who were before you.
-
-"
-MAT_5_12,"Open English Bible, US Edition",Young's Literal Translation,0.86,"Be glad and rejoice, because your reward in heaven will be great; this is the way they persecuted the prophets who lived before you.
-","
-        rejoice you and be glad, because your reward
-        is great in the heavens, for thus did they persecute the prophets who were before you."
-MAT_5_12,World English Bible,"World English Bible, British Edition",1.00,"
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you.
-
-","
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted
-the prophets who were before you.
-
-"
-MAT_5_12,World English Bible,Young's Literal Translation,0.79,"
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you.
-
-","
-        rejoice you and be glad, because your reward
-        is great in the heavens, for thus did they persecute the prophets who were before you."
-MAT_5_12,"World English Bible, British Edition",Young's Literal Translation,0.79,"
-Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted
-the prophets who were before you.
-
-","
-        rejoice you and be glad, because your reward
-        is great in the heavens, for thus did they persecute the prophets who were before you."
-JOB_1_3,American Standard Version (1901),Bible in Basic English,0.71,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east."
-JOB_1_3,American Standard Version (1901),Bible kralická,0.21,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","A měl dobytka sedm tisíc ovec, tři tisíce velbloudů, pět set spřežení volů, a pět set oslic, a čeledi služebné velmi mnoho, a byl muž ten vznešenější nade všecky lidi východní."
-JOB_1_3,American Standard Version (1901),Clementine Latin Vulgate,0.40,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","Et fuit possessio ejus septem millia ovium, et tria millia camelorum, quingenta quoque juga boum, et quingentæ asinæ, ac familia multa nimis : eratque vir ille magnus inter omnes orientales."
-JOB_1_3,American Standard Version (1901),Darby Bible,0.91,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east."
-JOB_1_3,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.83,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east."
-JOB_1_3,American Standard Version (1901),King James Version,0.97,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
-"
-JOB_1_3,American Standard Version (1901),World English Bible,0.86,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
-"
-JOB_1_3,American Standard Version (1901),"World English Bible, British Edition",0.86,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","His possessions also were seven thousand sheep, three thousand camels,
+JOB_1_3,JOB,1,3,American Standard Version (1901),"World English Bible, British Edition",0.86,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and a very great household; so that this man was the greatest of all the children of the east.","His possessions also were seven thousand sheep, three thousand camels,
 five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was
 the greatest of all the children of the east.
 "
-JOB_1_3,Bible in Basic English,Bible kralická,0.16,"And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east.","A měl dobytka sedm tisíc ovec, tři tisíce velbloudů, pět set spřežení volů, a pět set oslic, a čeledi služebné velmi mnoho, a byl muž ten vznešenější nade všecky lidi východní."
-JOB_1_3,Bible in Basic English,Clementine Latin Vulgate,0.34,"And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east.","Et fuit possessio ejus septem millia ovium, et tria millia camelorum, quingenta quoque juga boum, et quingentæ asinæ, ac familia multa nimis : eratque vir ille magnus inter omnes orientales."
-JOB_1_3,Bible in Basic English,Darby Bible,0.85,"And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east.","And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east."
-JOB_1_3,Bible in Basic English,Douay-Rheims 1899 American Edition,0.81,"And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east.","And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east."
-JOB_1_3,Bible in Basic English,King James Version,0.71,"And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east.","His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
+JOB_1_3,JOB,1,3,Bible in Basic English,Darby Bible,0.85,"And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east.","And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east."
+JOB_1_3,JOB,1,3,Bible in Basic English,Douay-Rheims 1899 American Edition,0.81,"And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east.","And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east."
+JOB_1_3,JOB,1,3,Bible in Basic English,King James Version,0.71,"And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east.","His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
 "
-JOB_1_3,Bible in Basic English,World English Bible,0.79,"And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east.","His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
+JOB_1_3,JOB,1,3,Bible in Basic English,World English Bible,0.79,"And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east.","His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
 "
-JOB_1_3,Bible in Basic English,"World English Bible, British Edition",0.79,"And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east.","His possessions also were seven thousand sheep, three thousand camels,
+JOB_1_3,JOB,1,3,Bible in Basic English,"World English Bible, British Edition",0.79,"And of cattle he had seven thousand sheep and goats, and three thousand camels, and a thousand oxen, and five hundred she-asses, and a very great number of servants. And the man was greater than any of the sons of the east.","His possessions also were seven thousand sheep, three thousand camels,
 five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was
 the greatest of all the children of the east.
 "
-JOB_1_3,Bible kralická,Clementine Latin Vulgate,0.38,"A měl dobytka sedm tisíc ovec, tři tisíce velbloudů, pět set spřežení volů, a pět set oslic, a čeledi služebné velmi mnoho, a byl muž ten vznešenější nade všecky lidi východní.","Et fuit possessio ejus septem millia ovium, et tria millia camelorum, quingenta quoque juga boum, et quingentæ asinæ, ac familia multa nimis : eratque vir ille magnus inter omnes orientales."
-JOB_1_3,Bible kralická,Darby Bible,0.19,"A měl dobytka sedm tisíc ovec, tři tisíce velbloudů, pět set spřežení volů, a pět set oslic, a čeledi služebné velmi mnoho, a byl muž ten vznešenější nade všecky lidi východní.","And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east."
-JOB_1_3,Bible kralická,Douay-Rheims 1899 American Edition,0.21,"A měl dobytka sedm tisíc ovec, tři tisíce velbloudů, pět set spřežení volů, a pět set oslic, a čeledi služebné velmi mnoho, a byl muž ten vznešenější nade všecky lidi východní.","And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east."
-JOB_1_3,Bible kralická,King James Version,0.19,"A měl dobytka sedm tisíc ovec, tři tisíce velbloudů, pět set spřežení volů, a pět set oslic, a čeledi služebné velmi mnoho, a byl muž ten vznešenější nade všecky lidi východní.","His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
+JOB_1_3,JOB,1,3,Darby Bible,Douay-Rheims 1899 American Edition,0.85,"And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east.","And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east."
+JOB_1_3,JOB,1,3,Darby Bible,King James Version,0.90,"And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east.","His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
 "
-JOB_1_3,Bible kralická,World English Bible,0.23,"A měl dobytka sedm tisíc ovec, tři tisíce velbloudů, pět set spřežení volů, a pět set oslic, a čeledi služebné velmi mnoho, a byl muž ten vznešenější nade všecky lidi východní.","His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
+JOB_1_3,JOB,1,3,Darby Bible,World English Bible,0.84,"And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east.","His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
 "
-JOB_1_3,Bible kralická,"World English Bible, British Edition",0.23,"A měl dobytka sedm tisíc ovec, tři tisíce velbloudů, pět set spřežení volů, a pět set oslic, a čeledi služebné velmi mnoho, a byl muž ten vznešenější nade všecky lidi východní.","His possessions also were seven thousand sheep, three thousand camels,
+JOB_1_3,JOB,1,3,Darby Bible,"World English Bible, British Edition",0.84,"And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east.","His possessions also were seven thousand sheep, three thousand camels,
 five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was
 the greatest of all the children of the east.
 "
-JOB_1_3,Clementine Latin Vulgate,Darby Bible,0.39,"Et fuit possessio ejus septem millia ovium, et tria millia camelorum, quingenta quoque juga boum, et quingentæ asinæ, ac familia multa nimis : eratque vir ille magnus inter omnes orientales.","And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east."
-JOB_1_3,Clementine Latin Vulgate,Douay-Rheims 1899 American Edition,0.44,"Et fuit possessio ejus septem millia ovium, et tria millia camelorum, quingenta quoque juga boum, et quingentæ asinæ, ac familia multa nimis : eratque vir ille magnus inter omnes orientales.","And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east."
-JOB_1_3,Clementine Latin Vulgate,King James Version,0.38,"Et fuit possessio ejus septem millia ovium, et tria millia camelorum, quingenta quoque juga boum, et quingentæ asinæ, ac familia multa nimis : eratque vir ille magnus inter omnes orientales.","His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
+JOB_1_3,JOB,1,3,Douay-Rheims 1899 American Edition,King James Version,0.84,"And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east.","His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
 "
-JOB_1_3,Clementine Latin Vulgate,World English Bible,0.44,"Et fuit possessio ejus septem millia ovium, et tria millia camelorum, quingenta quoque juga boum, et quingentæ asinæ, ac familia multa nimis : eratque vir ille magnus inter omnes orientales.","His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
+JOB_1_3,JOB,1,3,Douay-Rheims 1899 American Edition,World English Bible,0.91,"And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east.","His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
 "
-JOB_1_3,Clementine Latin Vulgate,"World English Bible, British Edition",0.44,"Et fuit possessio ejus septem millia ovium, et tria millia camelorum, quingenta quoque juga boum, et quingentæ asinæ, ac familia multa nimis : eratque vir ille magnus inter omnes orientales.","His possessions also were seven thousand sheep, three thousand camels,
+JOB_1_3,JOB,1,3,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.91,"And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east.","His possessions also were seven thousand sheep, three thousand camels,
 five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was
 the greatest of all the children of the east.
 "
-JOB_1_3,Darby Bible,Douay-Rheims 1899 American Edition,0.85,"And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east.","And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east."
-JOB_1_3,Darby Bible,King James Version,0.90,"And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east.","His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
-"
-JOB_1_3,Darby Bible,World English Bible,0.84,"And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east.","His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
-"
-JOB_1_3,Darby Bible,"World English Bible, British Edition",0.84,"And his substance was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she-asses, and very many servants; and this man was greater than all the children of the east.","His possessions also were seven thousand sheep, three thousand camels,
-five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was
-the greatest of all the children of the east.
-"
-JOB_1_3,Douay-Rheims 1899 American Edition,King James Version,0.84,"And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east.","His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
-"
-JOB_1_3,Douay-Rheims 1899 American Edition,World English Bible,0.91,"And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east.","His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
-"
-JOB_1_3,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.91,"And his possession was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a family exceeding great: and this man was great among all the people of the east.","His possessions also were seven thousand sheep, three thousand camels,
-five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was
-the greatest of all the children of the east.
-"
-JOB_1_3,King James Version,World English Bible,0.83,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
+JOB_1_3,JOB,1,3,King James Version,World English Bible,0.83,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
 ","His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
 "
-JOB_1_3,King James Version,"World English Bible, British Edition",0.83,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
+JOB_1_3,JOB,1,3,King James Version,"World English Bible, British Edition",0.83,"His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
 ","His possessions also were seven thousand sheep, three thousand camels,
 five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was
 the greatest of all the children of the east.
 "
-JOB_1_3,World English Bible,"World English Bible, British Edition",1.00,"His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
+JOB_1_3,JOB,1,3,World English Bible,"World English Bible, British Edition",1.00,"His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
 ","His possessions also were seven thousand sheep, three thousand camels,
 five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was
 the greatest of all the children of the east.
+"
+JOB_1_1,JOB,1,1,American Standard Version (1901),Bible in Basic English,0.91,"There was a man in the land of Uz, whose name was Job; and that man was perfect and upright, and one that feared God, and turned away from evil.","There was a man in the land of Uz whose name was Job. He was without sin and upright, fearing God and keeping himself far from evil."
+JOB_1_1,JOB,1,1,American Standard Version (1901),Darby Bible,0.97,"There was a man in the land of Uz, whose name was Job; and that man was perfect and upright, and one that feared God, and turned away from evil.","There was a man in the land of Uz whose name was Job; and this man was perfect and upright, and one that feared God and abstained from evil."
+JOB_1_1,JOB,1,1,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.92,"There was a man in the land of Uz, whose name was Job; and that man was perfect and upright, and one that feared God, and turned away from evil.","There was a man in the land of Hus, whose name was Job, and that man was simple and upright, and fearing God, and avoiding evil."
+JOB_1_1,JOB,1,1,American Standard Version (1901),King James Version,0.97,"There was a man in the land of Uz, whose name was Job; and that man was perfect and upright, and one that feared God, and turned away from evil.","There was a man in the land of Uz, whose name
+was Job; and that man was perfect and upright, and one that feared God, and eschewed evil.
+"
+JOB_1_1,JOB,1,1,American Standard Version (1901),World English Bible,0.91,"There was a man in the land of Uz, whose name was Job; and that man was perfect and upright, and one that feared God, and turned away from evil.","There was a man in the land of Uz, whose name was Job. That man was blameless and upright, and one who feared God, and turned away from evil.
+"
+JOB_1_1,JOB,1,1,American Standard Version (1901),"World English Bible, British Edition",0.91,"There was a man in the land of Uz, whose name was Job; and that man was perfect and upright, and one that feared God, and turned away from evil.","There was a man in the land of Uz, whose name was Job. That man was blameless
+and upright, and one who feared God, and turned away from evil.
+"
+JOB_1_1,JOB,1,1,Bible in Basic English,Darby Bible,0.90,"There was a man in the land of Uz whose name was Job. He was without sin and upright, fearing God and keeping himself far from evil.","There was a man in the land of Uz whose name was Job; and this man was perfect and upright, and one that feared God and abstained from evil."
+JOB_1_1,JOB,1,1,Bible in Basic English,Douay-Rheims 1899 American Edition,0.92,"There was a man in the land of Uz whose name was Job. He was without sin and upright, fearing God and keeping himself far from evil.","There was a man in the land of Hus, whose name was Job, and that man was simple and upright, and fearing God, and avoiding evil."
+JOB_1_1,JOB,1,1,Bible in Basic English,King James Version,0.91,"There was a man in the land of Uz whose name was Job. He was without sin and upright, fearing God and keeping himself far from evil.","There was a man in the land of Uz, whose name
+was Job; and that man was perfect and upright, and one that feared God, and eschewed evil.
+"
+JOB_1_1,JOB,1,1,Bible in Basic English,World English Bible,0.90,"There was a man in the land of Uz whose name was Job. He was without sin and upright, fearing God and keeping himself far from evil.","There was a man in the land of Uz, whose name was Job. That man was blameless and upright, and one who feared God, and turned away from evil.
+"
+JOB_1_1,JOB,1,1,Bible in Basic English,"World English Bible, British Edition",0.90,"There was a man in the land of Uz whose name was Job. He was without sin and upright, fearing God and keeping himself far from evil.","There was a man in the land of Uz, whose name was Job. That man was blameless
+and upright, and one who feared God, and turned away from evil.
+"
+JOB_1_1,JOB,1,1,Darby Bible,Douay-Rheims 1899 American Edition,0.92,"There was a man in the land of Uz whose name was Job; and this man was perfect and upright, and one that feared God and abstained from evil.","There was a man in the land of Hus, whose name was Job, and that man was simple and upright, and fearing God, and avoiding evil."
+JOB_1_1,JOB,1,1,Darby Bible,King James Version,0.98,"There was a man in the land of Uz whose name was Job; and this man was perfect and upright, and one that feared God and abstained from evil.","There was a man in the land of Uz, whose name
+was Job; and that man was perfect and upright, and one that feared God, and eschewed evil.
+"
+JOB_1_1,JOB,1,1,Darby Bible,World English Bible,0.88,"There was a man in the land of Uz whose name was Job; and this man was perfect and upright, and one that feared God and abstained from evil.","There was a man in the land of Uz, whose name was Job. That man was blameless and upright, and one who feared God, and turned away from evil.
+"
+JOB_1_1,JOB,1,1,Darby Bible,"World English Bible, British Edition",0.88,"There was a man in the land of Uz whose name was Job; and this man was perfect and upright, and one that feared God and abstained from evil.","There was a man in the land of Uz, whose name was Job. That man was blameless
+and upright, and one who feared God, and turned away from evil.
+"
+JOB_1_1,JOB,1,1,Douay-Rheims 1899 American Edition,King James Version,0.93,"There was a man in the land of Hus, whose name was Job, and that man was simple and upright, and fearing God, and avoiding evil.","There was a man in the land of Uz, whose name
+was Job; and that man was perfect and upright, and one that feared God, and eschewed evil.
+"
+JOB_1_1,JOB,1,1,Douay-Rheims 1899 American Edition,World English Bible,0.88,"There was a man in the land of Hus, whose name was Job, and that man was simple and upright, and fearing God, and avoiding evil.","There was a man in the land of Uz, whose name was Job. That man was blameless and upright, and one who feared God, and turned away from evil.
+"
+JOB_1_1,JOB,1,1,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.88,"There was a man in the land of Hus, whose name was Job, and that man was simple and upright, and fearing God, and avoiding evil.","There was a man in the land of Uz, whose name was Job. That man was blameless
+and upright, and one who feared God, and turned away from evil.
+"
+JOB_1_1,JOB,1,1,King James Version,World English Bible,0.89,"There was a man in the land of Uz, whose name
+was Job; and that man was perfect and upright, and one that feared God, and eschewed evil.
+","There was a man in the land of Uz, whose name was Job. That man was blameless and upright, and one who feared God, and turned away from evil.
+"
+JOB_1_1,JOB,1,1,King James Version,"World English Bible, British Edition",0.89,"There was a man in the land of Uz, whose name
+was Job; and that man was perfect and upright, and one that feared God, and eschewed evil.
+","There was a man in the land of Uz, whose name was Job. That man was blameless
+and upright, and one who feared God, and turned away from evil.
+"
+JOB_1_1,JOB,1,1,World English Bible,"World English Bible, British Edition",1.00,"There was a man in the land of Uz, whose name was Job. That man was blameless and upright, and one who feared God, and turned away from evil.
+","There was a man in the land of Uz, whose name was Job. That man was blameless
+and upright, and one who feared God, and turned away from evil.
+"
+JOB_1_4,JOB,1,4,American Standard Version (1901),Bible in Basic English,0.91,And his sons went and held a feast in the house of each one upon his day; and they sent and called for their three sisters to eat and to drink with them.,"His sons regularly went to one another's houses, and every one on his day gave a feast: and at these times they sent for their three sisters to take part in their feasts with them."
+JOB_1_4,JOB,1,4,American Standard Version (1901),Darby Bible,0.98,And his sons went and held a feast in the house of each one upon his day; and they sent and called for their three sisters to eat and to drink with them.,And his sons went and made a feast in the house of each one on his day; and they sent and invited their three sisters to eat and to drink with them.
+JOB_1_4,JOB,1,4,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.92,And his sons went and held a feast in the house of each one upon his day; and they sent and called for their three sisters to eat and to drink with them.,"And his sons went, and made a feast by houses every one in his day. And sending they called their three sisters to eat and drink with them."
+JOB_1_4,JOB,1,4,American Standard Version (1901),King James Version,0.96,And his sons went and held a feast in the house of each one upon his day; and they sent and called for their three sisters to eat and to drink with them.,"And his sons went and feasted
+in their houses, every one his day; and sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,American Standard Version (1901),World English Bible,0.96,And his sons went and held a feast in the house of each one upon his day; and they sent and called for their three sisters to eat and to drink with them.,"His sons went and held a feast in the house of each one on his birthday; and they sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,American Standard Version (1901),"World English Bible, British Edition",0.96,And his sons went and held a feast in the house of each one upon his day; and they sent and called for their three sisters to eat and to drink with them.,"His sons went and held a feast in the house of each one on his birthday;
+and they sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,Bible in Basic English,Darby Bible,0.91,"His sons regularly went to one another's houses, and every one on his day gave a feast: and at these times they sent for their three sisters to take part in their feasts with them.",And his sons went and made a feast in the house of each one on his day; and they sent and invited their three sisters to eat and to drink with them.
+JOB_1_4,JOB,1,4,Bible in Basic English,Douay-Rheims 1899 American Edition,0.84,"His sons regularly went to one another's houses, and every one on his day gave a feast: and at these times they sent for their three sisters to take part in their feasts with them.","And his sons went, and made a feast by houses every one in his day. And sending they called their three sisters to eat and drink with them."
+JOB_1_4,JOB,1,4,Bible in Basic English,King James Version,0.88,"His sons regularly went to one another's houses, and every one on his day gave a feast: and at these times they sent for their three sisters to take part in their feasts with them.","And his sons went and feasted
+in their houses, every one his day; and sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,Bible in Basic English,World English Bible,0.91,"His sons regularly went to one another's houses, and every one on his day gave a feast: and at these times they sent for their three sisters to take part in their feasts with them.","His sons went and held a feast in the house of each one on his birthday; and they sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,Bible in Basic English,"World English Bible, British Edition",0.91,"His sons regularly went to one another's houses, and every one on his day gave a feast: and at these times they sent for their three sisters to take part in their feasts with them.","His sons went and held a feast in the house of each one on his birthday;
+and they sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,Darby Bible,Douay-Rheims 1899 American Edition,0.92,And his sons went and made a feast in the house of each one on his day; and they sent and invited their three sisters to eat and to drink with them.,"And his sons went, and made a feast by houses every one in his day. And sending they called their three sisters to eat and drink with them."
+JOB_1_4,JOB,1,4,Darby Bible,King James Version,0.95,And his sons went and made a feast in the house of each one on his day; and they sent and invited their three sisters to eat and to drink with them.,"And his sons went and feasted
+in their houses, every one his day; and sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,Darby Bible,World English Bible,0.96,And his sons went and made a feast in the house of each one on his day; and they sent and invited their three sisters to eat and to drink with them.,"His sons went and held a feast in the house of each one on his birthday; and they sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,Darby Bible,"World English Bible, British Edition",0.96,And his sons went and made a feast in the house of each one on his day; and they sent and invited their three sisters to eat and to drink with them.,"His sons went and held a feast in the house of each one on his birthday;
+and they sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,Douay-Rheims 1899 American Edition,King James Version,0.94,"And his sons went, and made a feast by houses every one in his day. And sending they called their three sisters to eat and drink with them.","And his sons went and feasted
+in their houses, every one his day; and sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,Douay-Rheims 1899 American Edition,World English Bible,0.87,"And his sons went, and made a feast by houses every one in his day. And sending they called their three sisters to eat and drink with them.","His sons went and held a feast in the house of each one on his birthday; and they sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.87,"And his sons went, and made a feast by houses every one in his day. And sending they called their three sisters to eat and drink with them.","His sons went and held a feast in the house of each one on his birthday;
+and they sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,King James Version,World English Bible,0.91,"And his sons went and feasted
+in their houses, every one his day; and sent and called for their three sisters to eat and to drink with them.
+","His sons went and held a feast in the house of each one on his birthday; and they sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,King James Version,"World English Bible, British Edition",0.91,"And his sons went and feasted
+in their houses, every one his day; and sent and called for their three sisters to eat and to drink with them.
+","His sons went and held a feast in the house of each one on his birthday;
+and they sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_4,JOB,1,4,World English Bible,"World English Bible, British Edition",1.00,"His sons went and held a feast in the house of each one on his birthday; and they sent and called for their three sisters to eat and to drink with them.
+","His sons went and held a feast in the house of each one on his birthday;
+and they sent and called for their three sisters to eat and to drink with them.
+"
+JOB_1_7,JOB,1,7,American Standard Version (1901),Bible in Basic English,0.77,"And Jehovah said unto Satan, Whence comest thou? Then Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it."
+JOB_1_7,JOB,1,7,American Standard Version (1901),Darby Bible,0.98,"And Jehovah said unto Satan, Whence comest thou? Then Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","And Jehovah said to Satan, Whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it."
+JOB_1_7,JOB,1,7,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.79,"And Jehovah said unto Satan, Whence comest thou? Then Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","And the Lord said to him: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it."
+JOB_1_7,JOB,1,7,American Standard Version (1901),King James Version,0.97,"And Jehovah said unto Satan, Whence comest thou? Then Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","And the LORD said unto Satan, Whence comest thou? Then Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+"
+JOB_1_7,JOB,1,7,American Standard Version (1901),World English Bible,0.82,"And Jehovah said unto Satan, Whence comest thou? Then Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","Yahweh said to Satan, “Where have you come from?”
+Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_1_7,JOB,1,7,American Standard Version (1901),"World English Bible, British Edition",0.84,"And Jehovah said unto Satan, Whence comest thou? Then Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","The LORD said to Satan, “Where have you come from?”
+Then Satan answered the LORD, and said, “From going back and forth in the earth, and from walking
+up and down in it.”
+"
+JOB_1_7,JOB,1,7,Bible in Basic English,Darby Bible,0.78,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","And Jehovah said to Satan, Whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it."
+JOB_1_7,JOB,1,7,Bible in Basic English,Douay-Rheims 1899 American Edition,0.70,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","And the Lord said to him: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it."
+JOB_1_7,JOB,1,7,Bible in Basic English,King James Version,0.81,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","And the LORD said unto Satan, Whence comest thou? Then Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+"
+JOB_1_7,JOB,1,7,Bible in Basic English,World English Bible,0.83,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","Yahweh said to Satan, “Where have you come from?”
+Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_1_7,JOB,1,7,Bible in Basic English,"World English Bible, British Edition",0.84,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","The LORD said to Satan, “Where have you come from?”
+Then Satan answered the LORD, and said, “From going back and forth in the earth, and from walking
+up and down in it.”
+"
+JOB_1_7,JOB,1,7,Darby Bible,Douay-Rheims 1899 American Edition,0.78,"And Jehovah said to Satan, Whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it.","And the Lord said to him: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it."
+JOB_1_7,JOB,1,7,Darby Bible,King James Version,0.96,"And Jehovah said to Satan, Whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it.","And the LORD said unto Satan, Whence comest thou? Then Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+"
+JOB_1_7,JOB,1,7,Darby Bible,World English Bible,0.84,"And Jehovah said to Satan, Whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it.","Yahweh said to Satan, “Where have you come from?”
+Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_1_7,JOB,1,7,Darby Bible,"World English Bible, British Edition",0.85,"And Jehovah said to Satan, Whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it.","The LORD said to Satan, “Where have you come from?”
+Then Satan answered the LORD, and said, “From going back and forth in the earth, and from walking
+up and down in it.”
+"
+JOB_1_7,JOB,1,7,Douay-Rheims 1899 American Edition,King James Version,0.82,"And the Lord said to him: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it.","And the LORD said unto Satan, Whence comest thou? Then Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+"
+JOB_1_7,JOB,1,7,Douay-Rheims 1899 American Edition,World English Bible,0.70,"And the Lord said to him: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it.","Yahweh said to Satan, “Where have you come from?”
+Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_1_7,JOB,1,7,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.70,"And the Lord said to him: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it.","The LORD said to Satan, “Where have you come from?”
+Then Satan answered the LORD, and said, “From going back and forth in the earth, and from walking
+up and down in it.”
+"
+JOB_1_7,JOB,1,7,King James Version,World English Bible,0.81,"And the LORD said unto Satan, Whence comest thou? Then Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+","Yahweh said to Satan, “Where have you come from?”
+Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_1_7,JOB,1,7,King James Version,"World English Bible, British Edition",0.81,"And the LORD said unto Satan, Whence comest thou? Then Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+","The LORD said to Satan, “Where have you come from?”
+Then Satan answered the LORD, and said, “From going back and forth in the earth, and from walking
+up and down in it.”
+"
+JOB_1_7,JOB,1,7,World English Bible,"World English Bible, British Edition",0.98,"Yahweh said to Satan, “Where have you come from?”
+Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+","The LORD said to Satan, “Where have you come from?”
+Then Satan answered the LORD, and said, “From going back and forth in the earth, and from walking
+up and down in it.”
+"
+JOB_1_8,JOB,1,8,American Standard Version (1901),Bible in Basic English,0.86,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil.","And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil?"
+JOB_1_8,JOB,1,8,American Standard Version (1901),Darby Bible,0.96,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil.","And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil?"
+JOB_1_8,JOB,1,8,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.91,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil.","And the Lord said to him: Hast thou considered my servant Job, that there is none like him in the earth, a simple and upright man, and fearing God, and avoiding evil?"
+JOB_1_8,JOB,1,8,American Standard Version (1901),King James Version,0.94,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil.","And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil?
+"
+JOB_1_8,JOB,1,8,American Standard Version (1901),World English Bible,0.88,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil.","Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
+"
+JOB_1_8,JOB,1,8,American Standard Version (1901),"World English Bible, British Edition",0.89,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil.","The LORD said to Satan, “Have you considered my servant, Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil.”
+"
+JOB_1_8,JOB,1,8,Bible in Basic English,Darby Bible,0.87,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil?","And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil?"
+JOB_1_8,JOB,1,8,Bible in Basic English,Douay-Rheims 1899 American Edition,0.89,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil?","And the Lord said to him: Hast thou considered my servant Job, that there is none like him in the earth, a simple and upright man, and fearing God, and avoiding evil?"
+JOB_1_8,JOB,1,8,Bible in Basic English,King James Version,0.88,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil?","And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil?
+"
+JOB_1_8,JOB,1,8,Bible in Basic English,World English Bible,0.83,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil?","Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
+"
+JOB_1_8,JOB,1,8,Bible in Basic English,"World English Bible, British Edition",0.81,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil?","The LORD said to Satan, “Have you considered my servant, Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil.”
+"
+JOB_1_8,JOB,1,8,Darby Bible,Douay-Rheims 1899 American Edition,0.91,"And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil?","And the Lord said to him: Hast thou considered my servant Job, that there is none like him in the earth, a simple and upright man, and fearing God, and avoiding evil?"
+JOB_1_8,JOB,1,8,Darby Bible,King James Version,0.96,"And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil?","And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil?
+"
+JOB_1_8,JOB,1,8,Darby Bible,World English Bible,0.84,"And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil?","Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
+"
+JOB_1_8,JOB,1,8,Darby Bible,"World English Bible, British Edition",0.84,"And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil?","The LORD said to Satan, “Have you considered my servant, Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil.”
+"
+JOB_1_8,JOB,1,8,Douay-Rheims 1899 American Edition,King James Version,0.91,"And the Lord said to him: Hast thou considered my servant Job, that there is none like him in the earth, a simple and upright man, and fearing God, and avoiding evil?","And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil?
+"
+JOB_1_8,JOB,1,8,Douay-Rheims 1899 American Edition,World English Bible,0.86,"And the Lord said to him: Hast thou considered my servant Job, that there is none like him in the earth, a simple and upright man, and fearing God, and avoiding evil?","Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
+"
+JOB_1_8,JOB,1,8,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.84,"And the Lord said to him: Hast thou considered my servant Job, that there is none like him in the earth, a simple and upright man, and fearing God, and avoiding evil?","The LORD said to Satan, “Have you considered my servant, Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil.”
+"
+JOB_1_8,JOB,1,8,King James Version,World English Bible,0.82,"And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil?
+","Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
+"
+JOB_1_8,JOB,1,8,King James Version,"World English Bible, British Edition",0.80,"And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil?
+","The LORD said to Satan, “Have you considered my servant, Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil.”
+"
+JOB_1_8,JOB,1,8,World English Bible,"World English Bible, British Edition",0.98,"Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
+","The LORD said to Satan, “Have you considered my servant, Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil.”
+"
+JOB_1_6,JOB,1,6,American Standard Version (1901),Bible in Basic English,0.80,"Now it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan also came among them.","And there was a day when the sons of the gods came together before the Lord, and the Satan came with them."
+JOB_1_6,JOB,1,6,American Standard Version (1901),Darby Bible,0.91,"Now it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan also came among them.",And there was a day when the sons of God came to present themselves before Jehovah; and Satan came also among them.
+JOB_1_6,JOB,1,6,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.85,"Now it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan also came among them.","Now on a certain day when the sons of God came to stand before the Lord, Satan also was present among them."
+JOB_1_6,JOB,1,6,American Standard Version (1901),King James Version,0.91,"Now it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan also came among them.","Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.
+"
+JOB_1_6,JOB,1,6,American Standard Version (1901),World English Bible,0.90,"Now it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan also came among them.","Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them.
+"
+JOB_1_6,JOB,1,6,American Standard Version (1901),"World English Bible, British Edition",0.91,"Now it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan also came among them.","Now on the day when God’s sons came to present themselves before
+the LORD,
+Satan also came amongst them.
+"
+JOB_1_6,JOB,1,6,Bible in Basic English,Darby Bible,0.85,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.",And there was a day when the sons of God came to present themselves before Jehovah; and Satan came also among them.
+JOB_1_6,JOB,1,6,Bible in Basic English,Douay-Rheims 1899 American Edition,0.82,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.","Now on a certain day when the sons of God came to stand before the Lord, Satan also was present among them."
+JOB_1_6,JOB,1,6,Bible in Basic English,King James Version,0.88,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.","Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.
+"
+JOB_1_6,JOB,1,6,Bible in Basic English,World English Bible,0.78,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.","Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them.
+"
+JOB_1_6,JOB,1,6,Bible in Basic English,"World English Bible, British Edition",0.81,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.","Now on the day when God’s sons came to present themselves before
+the LORD,
+Satan also came amongst them.
+"
+JOB_1_6,JOB,1,6,Darby Bible,Douay-Rheims 1899 American Edition,0.93,And there was a day when the sons of God came to present themselves before Jehovah; and Satan came also among them.,"Now on a certain day when the sons of God came to stand before the Lord, Satan also was present among them."
+JOB_1_6,JOB,1,6,Darby Bible,King James Version,0.99,And there was a day when the sons of God came to present themselves before Jehovah; and Satan came also among them.,"Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.
+"
+JOB_1_6,JOB,1,6,Darby Bible,World English Bible,0.96,And there was a day when the sons of God came to present themselves before Jehovah; and Satan came also among them.,"Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them.
+"
+JOB_1_6,JOB,1,6,Darby Bible,"World English Bible, British Edition",0.96,And there was a day when the sons of God came to present themselves before Jehovah; and Satan came also among them.,"Now on the day when God’s sons came to present themselves before
+the LORD,
+Satan also came amongst them.
+"
+JOB_1_6,JOB,1,6,Douay-Rheims 1899 American Edition,King James Version,0.93,"Now on a certain day when the sons of God came to stand before the Lord, Satan also was present among them.","Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.
+"
+JOB_1_6,JOB,1,6,Douay-Rheims 1899 American Edition,World English Bible,0.92,"Now on a certain day when the sons of God came to stand before the Lord, Satan also was present among them.","Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them.
+"
+JOB_1_6,JOB,1,6,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.93,"Now on a certain day when the sons of God came to stand before the Lord, Satan also was present among them.","Now on the day when God’s sons came to present themselves before
+the LORD,
+Satan also came amongst them.
+"
+JOB_1_6,JOB,1,6,King James Version,World English Bible,0.95,"Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.
+","Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them.
+"
+JOB_1_6,JOB,1,6,King James Version,"World English Bible, British Edition",0.96,"Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.
+","Now on the day when God’s sons came to present themselves before
+the LORD,
+Satan also came amongst them.
+"
+JOB_1_6,JOB,1,6,World English Bible,"World English Bible, British Edition",0.99,"Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them.
+","Now on the day when God’s sons came to present themselves before
+the LORD,
+Satan also came amongst them.
+"
+JOB_1_5,JOB,1,5,American Standard Version (1901),Bible in Basic English,0.85,"And it was so, when the days of their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt-offerings according to the number of them all: for Job said, It may be that my sons have sinned, and renounced God in their hearts. Thus did Job continually.","And at the end of their days of feasting, Job sent and made them clean, getting up early in the morning and offering burned offerings for them all. For, Job said, It may be that my sons have done wrong and said evil of God in their hearts. And Job did this whenever the feasts came round."
+JOB_1_5,JOB,1,5,American Standard Version (1901),Darby Bible,0.94,"And it was so, when the days of their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt-offerings according to the number of them all: for Job said, It may be that my sons have sinned, and renounced God in their hearts. Thus did Job continually.","And it was so, when the days of the feasting were gone about, that Job sent and hallowed them; and he rose up early in the morning, and offered up burnt-offerings [according to] the number of them all; for Job said, It may be that my children have sinned, and cursed God in their hearts. Thus did Job continually."
+JOB_1_5,JOB,1,5,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.84,"And it was so, when the days of their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt-offerings according to the number of them all: for Job said, It may be that my sons have sinned, and renounced God in their hearts. Thus did Job continually.","And when the days of their feasting were gone about, Job sent to them, and sanctified them: and rising up early offered holocausts for every one of them. For he said: Lest perhaps my sons have sinned, and have blessed God in their hearts. So did Job all days."
+JOB_1_5,JOB,1,5,American Standard Version (1901),King James Version,0.98,"And it was so, when the days of their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt-offerings according to the number of them all: for Job said, It may be that my sons have sinned, and renounced God in their hearts. Thus did Job continually.","And it was so, when the days of
+their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings
+according to the number of them all: for Job said, It may be that my sons have sinned, and cursed God in their hearts. Thus did Job continually.
+"
+JOB_1_5,JOB,1,5,American Standard Version (1901),World English Bible,0.97,"And it was so, when the days of their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt-offerings according to the number of them all: for Job said, It may be that my sons have sinned, and renounced God in their hearts. Thus did Job continually.","It was so, when the days of their feasting had run their course, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,American Standard Version (1901),"World English Bible, British Edition",0.97,"And it was so, when the days of their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt-offerings according to the number of them all: for Job said, It may be that my sons have sinned, and renounced God in their hearts. Thus did Job continually.","It was so, when the days of their feasting had run their course, that
+Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according
+to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their
+hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,Bible in Basic English,Darby Bible,0.84,"And at the end of their days of feasting, Job sent and made them clean, getting up early in the morning and offering burned offerings for them all. For, Job said, It may be that my sons have done wrong and said evil of God in their hearts. And Job did this whenever the feasts came round.","And it was so, when the days of the feasting were gone about, that Job sent and hallowed them; and he rose up early in the morning, and offered up burnt-offerings [according to] the number of them all; for Job said, It may be that my children have sinned, and cursed God in their hearts. Thus did Job continually."
+JOB_1_5,JOB,1,5,Bible in Basic English,Douay-Rheims 1899 American Edition,0.81,"And at the end of their days of feasting, Job sent and made them clean, getting up early in the morning and offering burned offerings for them all. For, Job said, It may be that my sons have done wrong and said evil of God in their hearts. And Job did this whenever the feasts came round.","And when the days of their feasting were gone about, Job sent to them, and sanctified them: and rising up early offered holocausts for every one of them. For he said: Lest perhaps my sons have sinned, and have blessed God in their hearts. So did Job all days."
+JOB_1_5,JOB,1,5,Bible in Basic English,King James Version,0.86,"And at the end of their days of feasting, Job sent and made them clean, getting up early in the morning and offering burned offerings for them all. For, Job said, It may be that my sons have done wrong and said evil of God in their hearts. And Job did this whenever the feasts came round.","And it was so, when the days of
+their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings
+according to the number of them all: for Job said, It may be that my sons have sinned, and cursed God in their hearts. Thus did Job continually.
+"
+JOB_1_5,JOB,1,5,Bible in Basic English,World English Bible,0.85,"And at the end of their days of feasting, Job sent and made them clean, getting up early in the morning and offering burned offerings for them all. For, Job said, It may be that my sons have done wrong and said evil of God in their hearts. And Job did this whenever the feasts came round.","It was so, when the days of their feasting had run their course, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,Bible in Basic English,"World English Bible, British Edition",0.85,"And at the end of their days of feasting, Job sent and made them clean, getting up early in the morning and offering burned offerings for them all. For, Job said, It may be that my sons have done wrong and said evil of God in their hearts. And Job did this whenever the feasts came round.","It was so, when the days of their feasting had run their course, that
+Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according
+to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their
+hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,Darby Bible,Douay-Rheims 1899 American Edition,0.80,"And it was so, when the days of the feasting were gone about, that Job sent and hallowed them; and he rose up early in the morning, and offered up burnt-offerings [according to] the number of them all; for Job said, It may be that my children have sinned, and cursed God in their hearts. Thus did Job continually.","And when the days of their feasting were gone about, Job sent to them, and sanctified them: and rising up early offered holocausts for every one of them. For he said: Lest perhaps my sons have sinned, and have blessed God in their hearts. So did Job all days."
+JOB_1_5,JOB,1,5,Darby Bible,King James Version,0.96,"And it was so, when the days of the feasting were gone about, that Job sent and hallowed them; and he rose up early in the morning, and offered up burnt-offerings [according to] the number of them all; for Job said, It may be that my children have sinned, and cursed God in their hearts. Thus did Job continually.","And it was so, when the days of
+their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings
+according to the number of them all: for Job said, It may be that my sons have sinned, and cursed God in their hearts. Thus did Job continually.
+"
+JOB_1_5,JOB,1,5,Darby Bible,World English Bible,0.92,"And it was so, when the days of the feasting were gone about, that Job sent and hallowed them; and he rose up early in the morning, and offered up burnt-offerings [according to] the number of them all; for Job said, It may be that my children have sinned, and cursed God in their hearts. Thus did Job continually.","It was so, when the days of their feasting had run their course, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,Darby Bible,"World English Bible, British Edition",0.92,"And it was so, when the days of the feasting were gone about, that Job sent and hallowed them; and he rose up early in the morning, and offered up burnt-offerings [according to] the number of them all; for Job said, It may be that my children have sinned, and cursed God in their hearts. Thus did Job continually.","It was so, when the days of their feasting had run their course, that
+Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according
+to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their
+hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,Douay-Rheims 1899 American Edition,King James Version,0.85,"And when the days of their feasting were gone about, Job sent to them, and sanctified them: and rising up early offered holocausts for every one of them. For he said: Lest perhaps my sons have sinned, and have blessed God in their hearts. So did Job all days.","And it was so, when the days of
+their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings
+according to the number of them all: for Job said, It may be that my sons have sinned, and cursed God in their hearts. Thus did Job continually.
+"
+JOB_1_5,JOB,1,5,Douay-Rheims 1899 American Edition,World English Bible,0.81,"And when the days of their feasting were gone about, Job sent to them, and sanctified them: and rising up early offered holocausts for every one of them. For he said: Lest perhaps my sons have sinned, and have blessed God in their hearts. So did Job all days.","It was so, when the days of their feasting had run their course, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.81,"And when the days of their feasting were gone about, Job sent to them, and sanctified them: and rising up early offered holocausts for every one of them. For he said: Lest perhaps my sons have sinned, and have blessed God in their hearts. So did Job all days.","It was so, when the days of their feasting had run their course, that
+Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according
+to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their
+hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,King James Version,World English Bible,0.94,"And it was so, when the days of
+their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings
+according to the number of them all: for Job said, It may be that my sons have sinned, and cursed God in their hearts. Thus did Job continually.
+","It was so, when the days of their feasting had run their course, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,King James Version,"World English Bible, British Edition",0.94,"And it was so, when the days of
+their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings
+according to the number of them all: for Job said, It may be that my sons have sinned, and cursed God in their hearts. Thus did Job continually.
+","It was so, when the days of their feasting had run their course, that
+Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according
+to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their
+hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,World English Bible,"World English Bible, British Edition",1.00,"It was so, when the days of their feasting had run their course, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their hearts.” Job did so continually.
+","It was so, when the days of their feasting had run their course, that
+Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according
+to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their
+hearts.” Job did so continually.
+"
+JOB_1_7,JOB,1,7,American Standard Version (1901),Bible in Basic English,0.77,"And Jehovah said unto Satan, Whence comest thou? Then Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it."
+JOB_1_7,JOB,1,7,American Standard Version (1901),Darby Bible,0.98,"And Jehovah said unto Satan, Whence comest thou? Then Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","And Jehovah said to Satan, Whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it."
+JOB_1_7,JOB,1,7,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.79,"And Jehovah said unto Satan, Whence comest thou? Then Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","And the Lord said to him: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it."
+JOB_1_7,JOB,1,7,American Standard Version (1901),King James Version,0.97,"And Jehovah said unto Satan, Whence comest thou? Then Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","And the LORD said unto Satan, Whence comest thou? Then Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+"
+JOB_1_7,JOB,1,7,American Standard Version (1901),World English Bible,0.82,"And Jehovah said unto Satan, Whence comest thou? Then Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","Yahweh said to Satan, “Where have you come from?”
+Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_1_7,JOB,1,7,American Standard Version (1901),"World English Bible, British Edition",0.84,"And Jehovah said unto Satan, Whence comest thou? Then Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","The LORD said to Satan, “Where have you come from?”
+Then Satan answered the LORD, and said, “From going back and forth in the earth, and from walking
+up and down in it.”
+"
+JOB_1_7,JOB,1,7,Bible in Basic English,Darby Bible,0.78,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","And Jehovah said to Satan, Whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it."
+JOB_1_7,JOB,1,7,Bible in Basic English,Douay-Rheims 1899 American Edition,0.70,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","And the Lord said to him: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it."
+JOB_1_7,JOB,1,7,Bible in Basic English,King James Version,0.81,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","And the LORD said unto Satan, Whence comest thou? Then Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+"
+JOB_1_7,JOB,1,7,Bible in Basic English,World English Bible,0.83,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","Yahweh said to Satan, “Where have you come from?”
+Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_1_7,JOB,1,7,Bible in Basic English,"World English Bible, British Edition",0.84,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","The LORD said to Satan, “Where have you come from?”
+Then Satan answered the LORD, and said, “From going back and forth in the earth, and from walking
+up and down in it.”
+"
+JOB_1_7,JOB,1,7,Darby Bible,Douay-Rheims 1899 American Edition,0.78,"And Jehovah said to Satan, Whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it.","And the Lord said to him: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it."
+JOB_1_7,JOB,1,7,Darby Bible,King James Version,0.96,"And Jehovah said to Satan, Whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it.","And the LORD said unto Satan, Whence comest thou? Then Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+"
+JOB_1_7,JOB,1,7,Darby Bible,World English Bible,0.84,"And Jehovah said to Satan, Whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it.","Yahweh said to Satan, “Where have you come from?”
+Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_1_7,JOB,1,7,Darby Bible,"World English Bible, British Edition",0.85,"And Jehovah said to Satan, Whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it.","The LORD said to Satan, “Where have you come from?”
+Then Satan answered the LORD, and said, “From going back and forth in the earth, and from walking
+up and down in it.”
+"
+JOB_1_7,JOB,1,7,Douay-Rheims 1899 American Edition,King James Version,0.82,"And the Lord said to him: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it.","And the LORD said unto Satan, Whence comest thou? Then Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+"
+JOB_1_7,JOB,1,7,Douay-Rheims 1899 American Edition,World English Bible,0.70,"And the Lord said to him: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it.","Yahweh said to Satan, “Where have you come from?”
+Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_1_7,JOB,1,7,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.70,"And the Lord said to him: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it.","The LORD said to Satan, “Where have you come from?”
+Then Satan answered the LORD, and said, “From going back and forth in the earth, and from walking
+up and down in it.”
+"
+JOB_1_7,JOB,1,7,King James Version,World English Bible,0.81,"And the LORD said unto Satan, Whence comest thou? Then Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+","Yahweh said to Satan, “Where have you come from?”
+Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_1_7,JOB,1,7,King James Version,"World English Bible, British Edition",0.81,"And the LORD said unto Satan, Whence comest thou? Then Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+","The LORD said to Satan, “Where have you come from?”
+Then Satan answered the LORD, and said, “From going back and forth in the earth, and from walking
+up and down in it.”
+"
+JOB_1_7,JOB,1,7,World English Bible,"World English Bible, British Edition",0.98,"Yahweh said to Satan, “Where have you come from?”
+Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+","The LORD said to Satan, “Where have you come from?”
+Then Satan answered the LORD, and said, “From going back and forth in the earth, and from walking
+up and down in it.”
+"
+JOB_1_6,JOB,1,6,American Standard Version (1901),Bible in Basic English,0.80,"Now it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan also came among them.","And there was a day when the sons of the gods came together before the Lord, and the Satan came with them."
+JOB_1_6,JOB,1,6,American Standard Version (1901),Darby Bible,0.91,"Now it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan also came among them.",And there was a day when the sons of God came to present themselves before Jehovah; and Satan came also among them.
+JOB_1_6,JOB,1,6,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.85,"Now it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan also came among them.","Now on a certain day when the sons of God came to stand before the Lord, Satan also was present among them."
+JOB_1_6,JOB,1,6,American Standard Version (1901),King James Version,0.91,"Now it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan also came among them.","Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.
+"
+JOB_1_6,JOB,1,6,American Standard Version (1901),World English Bible,0.90,"Now it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan also came among them.","Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them.
+"
+JOB_1_6,JOB,1,6,American Standard Version (1901),"World English Bible, British Edition",0.91,"Now it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan also came among them.","Now on the day when God’s sons came to present themselves before
+the LORD,
+Satan also came amongst them.
+"
+JOB_1_6,JOB,1,6,Bible in Basic English,Darby Bible,0.85,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.",And there was a day when the sons of God came to present themselves before Jehovah; and Satan came also among them.
+JOB_1_6,JOB,1,6,Bible in Basic English,Douay-Rheims 1899 American Edition,0.82,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.","Now on a certain day when the sons of God came to stand before the Lord, Satan also was present among them."
+JOB_1_6,JOB,1,6,Bible in Basic English,King James Version,0.88,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.","Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.
+"
+JOB_1_6,JOB,1,6,Bible in Basic English,World English Bible,0.78,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.","Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them.
+"
+JOB_1_6,JOB,1,6,Bible in Basic English,"World English Bible, British Edition",0.81,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.","Now on the day when God’s sons came to present themselves before
+the LORD,
+Satan also came amongst them.
+"
+JOB_1_6,JOB,1,6,Darby Bible,Douay-Rheims 1899 American Edition,0.93,And there was a day when the sons of God came to present themselves before Jehovah; and Satan came also among them.,"Now on a certain day when the sons of God came to stand before the Lord, Satan also was present among them."
+JOB_1_6,JOB,1,6,Darby Bible,King James Version,0.99,And there was a day when the sons of God came to present themselves before Jehovah; and Satan came also among them.,"Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.
+"
+JOB_1_6,JOB,1,6,Darby Bible,World English Bible,0.96,And there was a day when the sons of God came to present themselves before Jehovah; and Satan came also among them.,"Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them.
+"
+JOB_1_6,JOB,1,6,Darby Bible,"World English Bible, British Edition",0.96,And there was a day when the sons of God came to present themselves before Jehovah; and Satan came also among them.,"Now on the day when God’s sons came to present themselves before
+the LORD,
+Satan also came amongst them.
+"
+JOB_1_6,JOB,1,6,Douay-Rheims 1899 American Edition,King James Version,0.93,"Now on a certain day when the sons of God came to stand before the Lord, Satan also was present among them.","Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.
+"
+JOB_1_6,JOB,1,6,Douay-Rheims 1899 American Edition,World English Bible,0.92,"Now on a certain day when the sons of God came to stand before the Lord, Satan also was present among them.","Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them.
+"
+JOB_1_6,JOB,1,6,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.93,"Now on a certain day when the sons of God came to stand before the Lord, Satan also was present among them.","Now on the day when God’s sons came to present themselves before
+the LORD,
+Satan also came amongst them.
+"
+JOB_1_6,JOB,1,6,King James Version,World English Bible,0.95,"Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.
+","Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them.
+"
+JOB_1_6,JOB,1,6,King James Version,"World English Bible, British Edition",0.96,"Now there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.
+","Now on the day when God’s sons came to present themselves before
+the LORD,
+Satan also came amongst them.
+"
+JOB_1_6,JOB,1,6,World English Bible,"World English Bible, British Edition",0.99,"Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them.
+","Now on the day when God’s sons came to present themselves before
+the LORD,
+Satan also came amongst them.
+"
+JOB_2_1,JOB,2,1,American Standard Version (1901),Bible in Basic English,0.75,"Again it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan came also among them to present himself before Jehovah.","And there was a day when the sons of the gods came together before the Lord, and the Satan came with them."
+JOB_2_1,JOB,2,1,American Standard Version (1901),Darby Bible,0.91,"Again it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan came also among them to present himself before Jehovah.","And there was a day when the sons of God came to present themselves before Jehovah, and Satan also came among them to present himself before Jehovah."
+JOB_2_1,JOB,2,1,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.90,"Again it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan came also among them to present himself before Jehovah.","And it came to pass, when on a certain day the sons of God came, and stood before the Lord, and Satan came among them, and stood in his sight,"
+JOB_2_1,JOB,2,1,American Standard Version (1901),King James Version,0.90,"Again it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan came also among them to present himself before Jehovah.","Again there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them to present himself before the LORD.
+"
+JOB_2_1,JOB,2,1,American Standard Version (1901),World English Bible,0.91,"Again it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan came also among them to present himself before Jehovah.","Again, on the day when the God’s sons came to present themselves before Yahweh, Satan came also among them to present himself before Yahweh.
+"
+JOB_2_1,JOB,2,1,American Standard Version (1901),"World English Bible, British Edition",0.91,"Again it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan came also among them to present himself before Jehovah.","Again, on the day when God’s sons came to present themselves before the LORD,
+Satan came also amongst them to present himself before the LORD.
+"
+JOB_2_1,JOB,2,1,Bible in Basic English,Darby Bible,0.83,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.","And there was a day when the sons of God came to present themselves before Jehovah, and Satan also came among them to present himself before Jehovah."
+JOB_2_1,JOB,2,1,Bible in Basic English,Douay-Rheims 1899 American Edition,0.75,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.","And it came to pass, when on a certain day the sons of God came, and stood before the Lord, and Satan came among them, and stood in his sight,"
+JOB_2_1,JOB,2,1,Bible in Basic English,King James Version,0.85,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.","Again there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them to present himself before the LORD.
+"
+JOB_2_1,JOB,2,1,Bible in Basic English,World English Bible,0.77,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.","Again, on the day when the God’s sons came to present themselves before Yahweh, Satan came also among them to present himself before Yahweh.
+"
+JOB_2_1,JOB,2,1,Bible in Basic English,"World English Bible, British Edition",0.78,"And there was a day when the sons of the gods came together before the Lord, and the Satan came with them.","Again, on the day when God’s sons came to present themselves before the LORD,
+Satan came also amongst them to present himself before the LORD.
+"
+JOB_2_1,JOB,2,1,Darby Bible,Douay-Rheims 1899 American Edition,0.79,"And there was a day when the sons of God came to present themselves before Jehovah, and Satan also came among them to present himself before Jehovah.","And it came to pass, when on a certain day the sons of God came, and stood before the Lord, and Satan came among them, and stood in his sight,"
+JOB_2_1,JOB,2,1,Darby Bible,King James Version,0.99,"And there was a day when the sons of God came to present themselves before Jehovah, and Satan also came among them to present himself before Jehovah.","Again there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them to present himself before the LORD.
+"
+JOB_2_1,JOB,2,1,Darby Bible,World English Bible,0.97,"And there was a day when the sons of God came to present themselves before Jehovah, and Satan also came among them to present himself before Jehovah.","Again, on the day when the God’s sons came to present themselves before Yahweh, Satan came also among them to present himself before Yahweh.
+"
+JOB_2_1,JOB,2,1,Darby Bible,"World English Bible, British Edition",0.96,"And there was a day when the sons of God came to present themselves before Jehovah, and Satan also came among them to present himself before Jehovah.","Again, on the day when God’s sons came to present themselves before the LORD,
+Satan came also amongst them to present himself before the LORD.
+"
+JOB_2_1,JOB,2,1,Douay-Rheims 1899 American Edition,King James Version,0.79,"And it came to pass, when on a certain day the sons of God came, and stood before the Lord, and Satan came among them, and stood in his sight,","Again there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them to present himself before the LORD.
+"
+JOB_2_1,JOB,2,1,Douay-Rheims 1899 American Edition,World English Bible,0.77,"And it came to pass, when on a certain day the sons of God came, and stood before the Lord, and Satan came among them, and stood in his sight,","Again, on the day when the God’s sons came to present themselves before Yahweh, Satan came also among them to present himself before Yahweh.
+"
+JOB_2_1,JOB,2,1,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.78,"And it came to pass, when on a certain day the sons of God came, and stood before the Lord, and Satan came among them, and stood in his sight,","Again, on the day when God’s sons came to present themselves before the LORD,
+Satan came also amongst them to present himself before the LORD.
+"
+JOB_2_1,JOB,2,1,King James Version,World English Bible,0.96,"Again there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them to present himself before the LORD.
+","Again, on the day when the God’s sons came to present themselves before Yahweh, Satan came also among them to present himself before Yahweh.
+"
+JOB_2_1,JOB,2,1,King James Version,"World English Bible, British Edition",0.96,"Again there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them to present himself before the LORD.
+","Again, on the day when God’s sons came to present themselves before the LORD,
+Satan came also amongst them to present himself before the LORD.
+"
+JOB_2_1,JOB,2,1,World English Bible,"World English Bible, British Edition",0.99,"Again, on the day when the God’s sons came to present themselves before Yahweh, Satan came also among them to present himself before Yahweh.
+","Again, on the day when God’s sons came to present themselves before the LORD,
+Satan came also amongst them to present himself before the LORD.
+"
+JOB_2_5,JOB,2,5,American Standard Version (1901),Bible in Basic English,0.73,"But put forth thy hand now, and touch his bone and his flesh, and he will renounce thee to thy face.","But now, if you only put your hand on his bone and his flesh, he will certainly be cursing you to your face."
+JOB_2_5,JOB,2,5,American Standard Version (1901),Darby Bible,0.83,"But put forth thy hand now, and touch his bone and his flesh, and he will renounce thee to thy face.","but put forth thy hand now, and touch his bone and his flesh, [and see] if he will not curse thee to thy face!"
+JOB_2_5,JOB,2,5,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.82,"But put forth thy hand now, and touch his bone and his flesh, and he will renounce thee to thy face.","gut put forth thy hand, and touch his bone and his flesh, and then thou shalt gee that he will bless thee to thy face."
+JOB_2_5,JOB,2,5,American Standard Version (1901),King James Version,0.90,"But put forth thy hand now, and touch his bone and his flesh, and he will renounce thee to thy face.","But put forth thine hand now, and touch his bone and his flesh, and he will curse thee to thy face.
+"
+JOB_2_5,JOB,2,5,American Standard Version (1901),World English Bible,0.83,"But put forth thy hand now, and touch his bone and his flesh, and he will renounce thee to thy face.","But stretch out your hand now, and touch his bone and his flesh, and he will renounce you to your face.”
+"
+JOB_2_5,JOB,2,5,American Standard Version (1901),"World English Bible, British Edition",0.83,"But put forth thy hand now, and touch his bone and his flesh, and he will renounce thee to thy face.","But stretch out your hand now, and touch his bone and his flesh, and he
+will renounce you to your face.”
+"
+JOB_2_5,JOB,2,5,Bible in Basic English,Darby Bible,0.80,"But now, if you only put your hand on his bone and his flesh, he will certainly be cursing you to your face.","but put forth thy hand now, and touch his bone and his flesh, [and see] if he will not curse thee to thy face!"
+JOB_2_5,JOB,2,5,Bible in Basic English,Douay-Rheims 1899 American Edition,0.66,"But now, if you only put your hand on his bone and his flesh, he will certainly be cursing you to your face.","gut put forth thy hand, and touch his bone and his flesh, and then thou shalt gee that he will bless thee to thy face."
+JOB_2_5,JOB,2,5,Bible in Basic English,King James Version,0.83,"But now, if you only put your hand on his bone and his flesh, he will certainly be cursing you to your face.","But put forth thine hand now, and touch his bone and his flesh, and he will curse thee to thy face.
+"
+JOB_2_5,JOB,2,5,Bible in Basic English,World English Bible,0.74,"But now, if you only put your hand on his bone and his flesh, he will certainly be cursing you to your face.","But stretch out your hand now, and touch his bone and his flesh, and he will renounce you to your face.”
+"
+JOB_2_5,JOB,2,5,Bible in Basic English,"World English Bible, British Edition",0.74,"But now, if you only put your hand on his bone and his flesh, he will certainly be cursing you to your face.","But stretch out your hand now, and touch his bone and his flesh, and he
+will renounce you to your face.”
+"
+JOB_2_5,JOB,2,5,Darby Bible,Douay-Rheims 1899 American Edition,0.77,"but put forth thy hand now, and touch his bone and his flesh, [and see] if he will not curse thee to thy face!","gut put forth thy hand, and touch his bone and his flesh, and then thou shalt gee that he will bless thee to thy face."
+JOB_2_5,JOB,2,5,Darby Bible,King James Version,0.90,"but put forth thy hand now, and touch his bone and his flesh, [and see] if he will not curse thee to thy face!","But put forth thine hand now, and touch his bone and his flesh, and he will curse thee to thy face.
+"
+JOB_2_5,JOB,2,5,Darby Bible,World English Bible,0.68,"but put forth thy hand now, and touch his bone and his flesh, [and see] if he will not curse thee to thy face!","But stretch out your hand now, and touch his bone and his flesh, and he will renounce you to your face.”
+"
+JOB_2_5,JOB,2,5,Darby Bible,"World English Bible, British Edition",0.68,"but put forth thy hand now, and touch his bone and his flesh, [and see] if he will not curse thee to thy face!","But stretch out your hand now, and touch his bone and his flesh, and he
+will renounce you to your face.”
+"
+JOB_2_5,JOB,2,5,Douay-Rheims 1899 American Edition,King James Version,0.80,"gut put forth thy hand, and touch his bone and his flesh, and then thou shalt gee that he will bless thee to thy face.","But put forth thine hand now, and touch his bone and his flesh, and he will curse thee to thy face.
+"
+JOB_2_5,JOB,2,5,Douay-Rheims 1899 American Edition,World English Bible,0.68,"gut put forth thy hand, and touch his bone and his flesh, and then thou shalt gee that he will bless thee to thy face.","But stretch out your hand now, and touch his bone and his flesh, and he will renounce you to your face.”
+"
+JOB_2_5,JOB,2,5,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.68,"gut put forth thy hand, and touch his bone and his flesh, and then thou shalt gee that he will bless thee to thy face.","But stretch out your hand now, and touch his bone and his flesh, and he
+will renounce you to your face.”
+"
+JOB_2_5,JOB,2,5,King James Version,World English Bible,0.75,"But put forth thine hand now, and touch his bone and his flesh, and he will curse thee to thy face.
+","But stretch out your hand now, and touch his bone and his flesh, and he will renounce you to your face.”
+"
+JOB_2_5,JOB,2,5,King James Version,"World English Bible, British Edition",0.75,"But put forth thine hand now, and touch his bone and his flesh, and he will curse thee to thy face.
+","But stretch out your hand now, and touch his bone and his flesh, and he
+will renounce you to your face.”
+"
+JOB_2_5,JOB,2,5,World English Bible,"World English Bible, British Edition",1.00,"But stretch out your hand now, and touch his bone and his flesh, and he will renounce you to your face.”
+","But stretch out your hand now, and touch his bone and his flesh, and he
+will renounce you to your face.”
+"
+JOB_1_8,JOB,1,8,American Standard Version (1901),Bible in Basic English,0.86,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil.","And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil?"
+JOB_1_8,JOB,1,8,American Standard Version (1901),Darby Bible,0.96,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil.","And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil?"
+JOB_1_8,JOB,1,8,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.91,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil.","And the Lord said to him: Hast thou considered my servant Job, that there is none like him in the earth, a simple and upright man, and fearing God, and avoiding evil?"
+JOB_1_8,JOB,1,8,American Standard Version (1901),King James Version,0.94,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil.","And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil?
+"
+JOB_1_8,JOB,1,8,American Standard Version (1901),World English Bible,0.88,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil.","Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
+"
+JOB_1_8,JOB,1,8,American Standard Version (1901),"World English Bible, British Edition",0.89,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil.","The LORD said to Satan, “Have you considered my servant, Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil.”
+"
+JOB_1_8,JOB,1,8,Bible in Basic English,Darby Bible,0.87,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil?","And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil?"
+JOB_1_8,JOB,1,8,Bible in Basic English,Douay-Rheims 1899 American Edition,0.89,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil?","And the Lord said to him: Hast thou considered my servant Job, that there is none like him in the earth, a simple and upright man, and fearing God, and avoiding evil?"
+JOB_1_8,JOB,1,8,Bible in Basic English,King James Version,0.88,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil?","And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil?
+"
+JOB_1_8,JOB,1,8,Bible in Basic English,World English Bible,0.83,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil?","Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
+"
+JOB_1_8,JOB,1,8,Bible in Basic English,"World English Bible, British Edition",0.81,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil?","The LORD said to Satan, “Have you considered my servant, Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil.”
+"
+JOB_1_8,JOB,1,8,Darby Bible,Douay-Rheims 1899 American Edition,0.91,"And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil?","And the Lord said to him: Hast thou considered my servant Job, that there is none like him in the earth, a simple and upright man, and fearing God, and avoiding evil?"
+JOB_1_8,JOB,1,8,Darby Bible,King James Version,0.96,"And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil?","And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil?
+"
+JOB_1_8,JOB,1,8,Darby Bible,World English Bible,0.84,"And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil?","Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
+"
+JOB_1_8,JOB,1,8,Darby Bible,"World English Bible, British Edition",0.84,"And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil?","The LORD said to Satan, “Have you considered my servant, Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil.”
+"
+JOB_1_8,JOB,1,8,Douay-Rheims 1899 American Edition,King James Version,0.91,"And the Lord said to him: Hast thou considered my servant Job, that there is none like him in the earth, a simple and upright man, and fearing God, and avoiding evil?","And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil?
+"
+JOB_1_8,JOB,1,8,Douay-Rheims 1899 American Edition,World English Bible,0.86,"And the Lord said to him: Hast thou considered my servant Job, that there is none like him in the earth, a simple and upright man, and fearing God, and avoiding evil?","Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
+"
+JOB_1_8,JOB,1,8,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.84,"And the Lord said to him: Hast thou considered my servant Job, that there is none like him in the earth, a simple and upright man, and fearing God, and avoiding evil?","The LORD said to Satan, “Have you considered my servant, Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil.”
+"
+JOB_1_8,JOB,1,8,King James Version,World English Bible,0.82,"And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil?
+","Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
+"
+JOB_1_8,JOB,1,8,King James Version,"World English Bible, British Edition",0.80,"And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil?
+","The LORD said to Satan, “Have you considered my servant, Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil.”
+"
+JOB_1_8,JOB,1,8,World English Bible,"World English Bible, British Edition",0.98,"Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
+","The LORD said to Satan, “Have you considered my servant, Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil.”
+"
+JOB_2_6,JOB,2,6,American Standard Version (1901),Bible in Basic English,0.81,"And Jehovah said unto Satan, Behold, he is in thy hand; only spare his life.","And the Lord said to the Satan, See, he is in your hands, only do not take his life."
+JOB_2_6,JOB,2,6,American Standard Version (1901),Darby Bible,0.97,"And Jehovah said unto Satan, Behold, he is in thy hand; only spare his life.","And Jehovah said to Satan, Behold, he is in thy hand; only spare his life."
+JOB_2_6,JOB,2,6,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.83,"And Jehovah said unto Satan, Behold, he is in thy hand; only spare his life.","And the Lord said to Satan: Behold be is in thy hand, but yet save his life."
+JOB_2_6,JOB,2,6,American Standard Version (1901),King James Version,0.86,"And Jehovah said unto Satan, Behold, he is in thy hand; only spare his life.","And the LORD said unto Satan, Behold, he
+is in thine hand; but save his life.
+"
+JOB_2_6,JOB,2,6,American Standard Version (1901),World English Bible,0.87,"And Jehovah said unto Satan, Behold, he is in thy hand; only spare his life.","Yahweh said to Satan, “Behold, he is in your hand. Only spare his life.”
+"
+JOB_2_6,JOB,2,6,American Standard Version (1901),"World English Bible, British Edition",0.90,"And Jehovah said unto Satan, Behold, he is in thy hand; only spare his life.","The LORD said to Satan, “Behold, he is in your hand. Only spare
+his life.”
+"
+JOB_2_6,JOB,2,6,Bible in Basic English,Darby Bible,0.82,"And the Lord said to the Satan, See, he is in your hands, only do not take his life.","And Jehovah said to Satan, Behold, he is in thy hand; only spare his life."
+JOB_2_6,JOB,2,6,Bible in Basic English,Douay-Rheims 1899 American Edition,0.83,"And the Lord said to the Satan, See, he is in your hands, only do not take his life.","And the Lord said to Satan: Behold be is in thy hand, but yet save his life."
+JOB_2_6,JOB,2,6,Bible in Basic English,King James Version,0.82,"And the Lord said to the Satan, See, he is in your hands, only do not take his life.","And the LORD said unto Satan, Behold, he
+is in thine hand; but save his life.
+"
+JOB_2_6,JOB,2,6,Bible in Basic English,World English Bible,0.85,"And the Lord said to the Satan, See, he is in your hands, only do not take his life.","Yahweh said to Satan, “Behold, he is in your hand. Only spare his life.”
+"
+JOB_2_6,JOB,2,6,Bible in Basic English,"World English Bible, British Edition",0.85,"And the Lord said to the Satan, See, he is in your hands, only do not take his life.","The LORD said to Satan, “Behold, he is in your hand. Only spare
+his life.”
+"
+JOB_2_6,JOB,2,6,Darby Bible,Douay-Rheims 1899 American Edition,0.85,"And Jehovah said to Satan, Behold, he is in thy hand; only spare his life.","And the Lord said to Satan: Behold be is in thy hand, but yet save his life."
+JOB_2_6,JOB,2,6,Darby Bible,King James Version,0.83,"And Jehovah said to Satan, Behold, he is in thy hand; only spare his life.","And the LORD said unto Satan, Behold, he
+is in thine hand; but save his life.
+"
+JOB_2_6,JOB,2,6,Darby Bible,World English Bible,0.90,"And Jehovah said to Satan, Behold, he is in thy hand; only spare his life.","Yahweh said to Satan, “Behold, he is in your hand. Only spare his life.”
+"
+JOB_2_6,JOB,2,6,Darby Bible,"World English Bible, British Edition",0.94,"And Jehovah said to Satan, Behold, he is in thy hand; only spare his life.","The LORD said to Satan, “Behold, he is in your hand. Only spare
+his life.”
+"
+JOB_2_6,JOB,2,6,Douay-Rheims 1899 American Edition,King James Version,0.87,"And the Lord said to Satan: Behold be is in thy hand, but yet save his life.","And the LORD said unto Satan, Behold, he
+is in thine hand; but save his life.
+"
+JOB_2_6,JOB,2,6,Douay-Rheims 1899 American Edition,World English Bible,0.81,"And the Lord said to Satan: Behold be is in thy hand, but yet save his life.","Yahweh said to Satan, “Behold, he is in your hand. Only spare his life.”
+"
+JOB_2_6,JOB,2,6,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.82,"And the Lord said to Satan: Behold be is in thy hand, but yet save his life.","The LORD said to Satan, “Behold, he is in your hand. Only spare
+his life.”
+"
+JOB_2_6,JOB,2,6,King James Version,World English Bible,0.83,"And the LORD said unto Satan, Behold, he
+is in thine hand; but save his life.
+","Yahweh said to Satan, “Behold, he is in your hand. Only spare his life.”
+"
+JOB_2_6,JOB,2,6,King James Version,"World English Bible, British Edition",0.82,"And the LORD said unto Satan, Behold, he
+is in thine hand; but save his life.
+","The LORD said to Satan, “Behold, he is in your hand. Only spare
+his life.”
+"
+JOB_2_6,JOB,2,6,World English Bible,"World English Bible, British Edition",0.98,"Yahweh said to Satan, “Behold, he is in your hand. Only spare his life.”
+","The LORD said to Satan, “Behold, he is in your hand. Only spare
+his life.”
+"
+JOB_2_7,JOB,2,7,American Standard Version (1901),Bible in Basic English,0.68,"So Satan went forth from the presence of Jehovah, and smote Job with sore boils from the sole of his foot unto his crown.","And the Satan went out from before the Lord, and sent on Job an evil disease covering his skin from his feet to the top of his head."
+JOB_2_7,JOB,2,7,American Standard Version (1901),Darby Bible,0.84,"So Satan went forth from the presence of Jehovah, and smote Job with sore boils from the sole of his foot unto his crown.",And Satan went forth from the presence of Jehovah; and he smote Job with a grievous botch from the sole of his foot unto his crown.
+JOB_2_7,JOB,2,7,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.73,"So Satan went forth from the presence of Jehovah, and smote Job with sore boils from the sole of his foot unto his crown.","So Satan went forth from the presence Of the Lord, and struck Job with a very grievous ulcer, from the sole of the foot even to the top of his head:"
+JOB_2_7,JOB,2,7,American Standard Version (1901),King James Version,0.96,"So Satan went forth from the presence of Jehovah, and smote Job with sore boils from the sole of his foot unto his crown.","So went Satan forth from the presence of the LORD, and smote Job with sore boils from the sole of his foot unto his crown.
+"
+JOB_2_7,JOB,2,7,American Standard Version (1901),World English Bible,0.75,"So Satan went forth from the presence of Jehovah, and smote Job with sore boils from the sole of his foot unto his crown.","So Satan went out from the presence of Yahweh, and struck Job with painful sores from the sole of his foot to his head.
+"
+JOB_2_7,JOB,2,7,American Standard Version (1901),"World English Bible, British Edition",0.75,"So Satan went forth from the presence of Jehovah, and smote Job with sore boils from the sole of his foot unto his crown.","So Satan went out from the presence of the LORD, and struck Job
+with painful sores from the sole of his foot to his head.
+"
+JOB_2_7,JOB,2,7,Bible in Basic English,Darby Bible,0.67,"And the Satan went out from before the Lord, and sent on Job an evil disease covering his skin from his feet to the top of his head.",And Satan went forth from the presence of Jehovah; and he smote Job with a grievous botch from the sole of his foot unto his crown.
+JOB_2_7,JOB,2,7,Bible in Basic English,Douay-Rheims 1899 American Edition,0.73,"And the Satan went out from before the Lord, and sent on Job an evil disease covering his skin from his feet to the top of his head.","So Satan went forth from the presence Of the Lord, and struck Job with a very grievous ulcer, from the sole of the foot even to the top of his head:"
+JOB_2_7,JOB,2,7,Bible in Basic English,King James Version,0.69,"And the Satan went out from before the Lord, and sent on Job an evil disease covering his skin from his feet to the top of his head.","So went Satan forth from the presence of the LORD, and smote Job with sore boils from the sole of his foot unto his crown.
+"
+JOB_2_7,JOB,2,7,Bible in Basic English,World English Bible,0.77,"And the Satan went out from before the Lord, and sent on Job an evil disease covering his skin from his feet to the top of his head.","So Satan went out from the presence of Yahweh, and struck Job with painful sores from the sole of his foot to his head.
+"
+JOB_2_7,JOB,2,7,Bible in Basic English,"World English Bible, British Edition",0.78,"And the Satan went out from before the Lord, and sent on Job an evil disease covering his skin from his feet to the top of his head.","So Satan went out from the presence of the LORD, and struck Job
+with painful sores from the sole of his foot to his head.
+"
+JOB_2_7,JOB,2,7,Darby Bible,Douay-Rheims 1899 American Edition,0.76,And Satan went forth from the presence of Jehovah; and he smote Job with a grievous botch from the sole of his foot unto his crown.,"So Satan went forth from the presence Of the Lord, and struck Job with a very grievous ulcer, from the sole of the foot even to the top of his head:"
+JOB_2_7,JOB,2,7,Darby Bible,King James Version,0.82,And Satan went forth from the presence of Jehovah; and he smote Job with a grievous botch from the sole of his foot unto his crown.,"So went Satan forth from the presence of the LORD, and smote Job with sore boils from the sole of his foot unto his crown.
+"
+JOB_2_7,JOB,2,7,Darby Bible,World English Bible,0.69,And Satan went forth from the presence of Jehovah; and he smote Job with a grievous botch from the sole of his foot unto his crown.,"So Satan went out from the presence of Yahweh, and struck Job with painful sores from the sole of his foot to his head.
+"
+JOB_2_7,JOB,2,7,Darby Bible,"World English Bible, British Edition",0.69,And Satan went forth from the presence of Jehovah; and he smote Job with a grievous botch from the sole of his foot unto his crown.,"So Satan went out from the presence of the LORD, and struck Job
+with painful sores from the sole of his foot to his head.
+"
+JOB_2_7,JOB,2,7,Douay-Rheims 1899 American Edition,King James Version,0.70,"So Satan went forth from the presence Of the Lord, and struck Job with a very grievous ulcer, from the sole of the foot even to the top of his head:","So went Satan forth from the presence of the LORD, and smote Job with sore boils from the sole of his foot unto his crown.
+"
+JOB_2_7,JOB,2,7,Douay-Rheims 1899 American Edition,World English Bible,0.84,"So Satan went forth from the presence Of the Lord, and struck Job with a very grievous ulcer, from the sole of the foot even to the top of his head:","So Satan went out from the presence of Yahweh, and struck Job with painful sores from the sole of his foot to his head.
+"
+JOB_2_7,JOB,2,7,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.85,"So Satan went forth from the presence Of the Lord, and struck Job with a very grievous ulcer, from the sole of the foot even to the top of his head:","So Satan went out from the presence of the LORD, and struck Job
+with painful sores from the sole of his foot to his head.
+"
+","Şi Satana a plecat dinaintea Domnului. Apoi a lovit pe Iov cu o bubă rea, din talpa piciorului până în creştetul capului. "
+JOB_2_7,JOB,2,7,King James Version,World English Bible,0.74,"So went Satan forth from the presence of the LORD, and smote Job with sore boils from the sole of his foot unto his crown.
+","So Satan went out from the presence of Yahweh, and struck Job with painful sores from the sole of his foot to his head.
+"
+JOB_2_7,JOB,2,7,King James Version,"World English Bible, British Edition",0.74,"So went Satan forth from the presence of the LORD, and smote Job with sore boils from the sole of his foot unto his crown.
+","So Satan went out from the presence of the LORD, and struck Job
+with painful sores from the sole of his foot to his head.
+"
+JOB_2_7,JOB,2,7,World English Bible,"World English Bible, British Edition",1.00,"So Satan went out from the presence of Yahweh, and struck Job with painful sores from the sole of his foot to his head.
+","So Satan went out from the presence of the LORD, and struck Job
+with painful sores from the sole of his foot to his head.
+"
+JOB_2_8,JOB,2,8,American Standard Version (1901),Bible in Basic English,0.69,And he took him a potsherd to scrape himself therewith; and he sat among the ashes.,"And he took a broken bit of a pot, and, seated in the dust, was rubbing himself with the sharp edge of it."
+JOB_2_8,JOB,2,8,American Standard Version (1901),Darby Bible,0.99,And he took him a potsherd to scrape himself therewith; and he sat among the ashes.,And he took a potsherd to scrape himself with; and he sat among the ashes.
+JOB_2_8,JOB,2,8,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.76,And he took him a potsherd to scrape himself therewith; and he sat among the ashes.,"And he took a potsherd and scraped the corrupt matter, sitting on a dunghill."
+JOB_2_8,JOB,2,8,American Standard Version (1901),King James Version,0.97,And he took him a potsherd to scrape himself therewith; and he sat among the ashes.,"And he took him a potsherd to scrape himself withal; and he sat down among the ashes.
+"
+JOB_2_8,JOB,2,8,American Standard Version (1901),World English Bible,0.97,And he took him a potsherd to scrape himself therewith; and he sat among the ashes.,"He took for himself a potsherd to scrape himself with, and he sat among the ashes.
+"
+JOB_2_8,JOB,2,8,American Standard Version (1901),"World English Bible, British Edition",0.97,And he took him a potsherd to scrape himself therewith; and he sat among the ashes.,"He took for himself a potsherd to scrape himself with, and he sat amongst
+the ashes.
+"
+JOB_2_8,JOB,2,8,Bible in Basic English,Darby Bible,0.71,"And he took a broken bit of a pot, and, seated in the dust, was rubbing himself with the sharp edge of it.",And he took a potsherd to scrape himself with; and he sat among the ashes.
+JOB_2_8,JOB,2,8,Bible in Basic English,Douay-Rheims 1899 American Edition,0.65,"And he took a broken bit of a pot, and, seated in the dust, was rubbing himself with the sharp edge of it.","And he took a potsherd and scraped the corrupt matter, sitting on a dunghill."
+JOB_2_8,JOB,2,8,Bible in Basic English,King James Version,0.69,"And he took a broken bit of a pot, and, seated in the dust, was rubbing himself with the sharp edge of it.","And he took him a potsherd to scrape himself withal; and he sat down among the ashes.
+"
+JOB_2_8,JOB,2,8,Bible in Basic English,World English Bible,0.72,"And he took a broken bit of a pot, and, seated in the dust, was rubbing himself with the sharp edge of it.","He took for himself a potsherd to scrape himself with, and he sat among the ashes.
+"
+JOB_2_8,JOB,2,8,Bible in Basic English,"World English Bible, British Edition",0.72,"And he took a broken bit of a pot, and, seated in the dust, was rubbing himself with the sharp edge of it.","He took for himself a potsherd to scrape himself with, and he sat amongst
+the ashes.
+"
+JOB_2_8,JOB,2,8,Darby Bible,Douay-Rheims 1899 American Edition,0.77,And he took a potsherd to scrape himself with; and he sat among the ashes.,"And he took a potsherd and scraped the corrupt matter, sitting on a dunghill."
+JOB_2_8,JOB,2,8,Darby Bible,King James Version,0.97,And he took a potsherd to scrape himself with; and he sat among the ashes.,"And he took him a potsherd to scrape himself withal; and he sat down among the ashes.
+"
+JOB_2_8,JOB,2,8,Darby Bible,World English Bible,0.98,And he took a potsherd to scrape himself with; and he sat among the ashes.,"He took for himself a potsherd to scrape himself with, and he sat among the ashes.
+"
+JOB_2_8,JOB,2,8,Darby Bible,"World English Bible, British Edition",0.97,And he took a potsherd to scrape himself with; and he sat among the ashes.,"He took for himself a potsherd to scrape himself with, and he sat amongst
+the ashes.
+"
+JOB_2_8,JOB,2,8,Douay-Rheims 1899 American Edition,King James Version,0.76,"And he took a potsherd and scraped the corrupt matter, sitting on a dunghill.","And he took him a potsherd to scrape himself withal; and he sat down among the ashes.
+"
+JOB_2_8,JOB,2,8,Douay-Rheims 1899 American Edition,World English Bible,0.77,"And he took a potsherd and scraped the corrupt matter, sitting on a dunghill.","He took for himself a potsherd to scrape himself with, and he sat among the ashes.
+"
+JOB_2_8,JOB,2,8,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.77,"And he took a potsherd and scraped the corrupt matter, sitting on a dunghill.","He took for himself a potsherd to scrape himself with, and he sat amongst
+the ashes.
+"
+JOB_2_8,JOB,2,8,King James Version,World English Bible,0.95,"And he took him a potsherd to scrape himself withal; and he sat down among the ashes.
+","He took for himself a potsherd to scrape himself with, and he sat among the ashes.
+"
+JOB_2_8,JOB,2,8,King James Version,"World English Bible, British Edition",0.95,"And he took him a potsherd to scrape himself withal; and he sat down among the ashes.
+","He took for himself a potsherd to scrape himself with, and he sat amongst
+the ashes.
+"
+JOB_2_8,JOB,2,8,World English Bible,"World English Bible, British Edition",1.00,"He took for himself a potsherd to scrape himself with, and he sat among the ashes.
+","He took for himself a potsherd to scrape himself with, and he sat amongst
+the ashes.
+"
+JOB_2_2,JOB,2,2,American Standard Version (1901),Bible in Basic English,0.76,"And Jehovah said unto Satan, From whence comest thou? And Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it."
+JOB_2_2,JOB,2,2,American Standard Version (1901),Darby Bible,0.98,"And Jehovah said unto Satan, From whence comest thou? And Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","And Jehovah said to Satan, From whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it."
+JOB_2_2,JOB,2,2,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.79,"And Jehovah said unto Satan, From whence comest thou? And Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","That the Lord said to Satan: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it."
+JOB_2_2,JOB,2,2,American Standard Version (1901),King James Version,0.97,"And Jehovah said unto Satan, From whence comest thou? And Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","And the LORD said unto Satan, From whence comest thou? And Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+"
+JOB_2_2,JOB,2,2,American Standard Version (1901),World English Bible,0.79,"And Jehovah said unto Satan, From whence comest thou? And Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","Yahweh said to Satan, “Where have you come from?”
+Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_2_2,JOB,2,2,American Standard Version (1901),"World English Bible, British Edition",0.83,"And Jehovah said unto Satan, From whence comest thou? And Satan answered Jehovah, and said, From going to and fro in the earth, and from walking up and down in it.","The LORD said to Satan, “Where have you come from?”
+Satan answered the LORD, and said, “From going back and forth in the earth, and from walking up
+and down in it.”
+"
+JOB_2_2,JOB,2,2,Bible in Basic English,Darby Bible,0.77,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","And Jehovah said to Satan, From whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it."
+JOB_2_2,JOB,2,2,Bible in Basic English,Douay-Rheims 1899 American Edition,0.73,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","That the Lord said to Satan: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it."
+JOB_2_2,JOB,2,2,Bible in Basic English,King James Version,0.80,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","And the LORD said unto Satan, From whence comest thou? And Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+"
+JOB_2_2,JOB,2,2,Bible in Basic English,World English Bible,0.82,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","Yahweh said to Satan, “Where have you come from?”
+Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_2_2,JOB,2,2,Bible in Basic English,"World English Bible, British Edition",0.84,"And the Lord said to the Satan, Where do you come from? And the Satan said in answer, From wandering this way and that on the earth, and walking about on it.","The LORD said to Satan, “Where have you come from?”
+Satan answered the LORD, and said, “From going back and forth in the earth, and from walking up
+and down in it.”
+"
+JOB_2_2,JOB,2,2,Darby Bible,Douay-Rheims 1899 American Edition,0.78,"And Jehovah said to Satan, From whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it.","That the Lord said to Satan: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it."
+JOB_2_2,JOB,2,2,Darby Bible,King James Version,0.95,"And Jehovah said to Satan, From whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it.","And the LORD said unto Satan, From whence comest thou? And Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+"
+JOB_2_2,JOB,2,2,Darby Bible,World English Bible,0.81,"And Jehovah said to Satan, From whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it.","Yahweh said to Satan, “Where have you come from?”
+Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_2_2,JOB,2,2,Darby Bible,"World English Bible, British Edition",0.85,"And Jehovah said to Satan, From whence comest thou? And Satan answered Jehovah and said, From going to and fro in the earth, and from walking up and down in it.","The LORD said to Satan, “Where have you come from?”
+Satan answered the LORD, and said, “From going back and forth in the earth, and from walking up
+and down in it.”
+"
+JOB_2_2,JOB,2,2,Douay-Rheims 1899 American Edition,King James Version,0.83,"That the Lord said to Satan: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it.","And the LORD said unto Satan, From whence comest thou? And Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+"
+JOB_2_2,JOB,2,2,Douay-Rheims 1899 American Edition,World English Bible,0.74,"That the Lord said to Satan: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it.","Yahweh said to Satan, “Where have you come from?”
+Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_2_2,JOB,2,2,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.75,"That the Lord said to Satan: Whence comest thou ? And he answered and said: I have gone round about the earth, and walked through it.","The LORD said to Satan, “Where have you come from?”
+Satan answered the LORD, and said, “From going back and forth in the earth, and from walking up
+and down in it.”
+"
+JOB_2_2,JOB,2,2,King James Version,World English Bible,0.80,"And the LORD said unto Satan, From whence comest thou? And Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+","Yahweh said to Satan, “Where have you come from?”
+Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+"
+JOB_2_2,JOB,2,2,King James Version,"World English Bible, British Edition",0.82,"And the LORD said unto Satan, From whence comest thou? And Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
+","The LORD said to Satan, “Where have you come from?”
+Satan answered the LORD, and said, “From going back and forth in the earth, and from walking up
+and down in it.”
+"
+JOB_2_2,JOB,2,2,World English Bible,"World English Bible, British Edition",0.98,"Yahweh said to Satan, “Where have you come from?”
+Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+","The LORD said to Satan, “Where have you come from?”
+Satan answered the LORD, and said, “From going back and forth in the earth, and from walking up
+and down in it.”
+"
+JOB_2_3,JOB,2,3,American Standard Version (1901),Bible in Basic English,0.86,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil: and he still holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.","And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil? and he still keeps his righteousness, though you have been moving me to send destruction on him without cause."
+JOB_2_3,JOB,2,3,American Standard Version (1901),Darby Bible,0.93,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil: and he still holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.","And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil? and still he remaineth firm in his integrity, though thou movedst me against him, to swallow him up without cause."
+JOB_2_3,JOB,2,3,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.87,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil: and he still holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.","And the Lord said to Satan: Hast thou considered my servant Job, that there is none like him in the earth, a man simple, and upright, and fearing Cod, and avoiding evil, and still keeping his innocence ? But thou hast moved me against him, that I sho uld afflict him without cause."
+JOB_2_3,JOB,2,3,American Standard Version (1901),King James Version,0.94,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil: and he still holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.","And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil? and still he holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.
+"
+JOB_2_3,JOB,2,3,American Standard Version (1901),World English Bible,0.90,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil: and he still holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.","Yahweh said to Satan, “Have you considered my servant Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil. He still maintains his integrity, although you incited me against him, to ruin him without cause.”
+"
+JOB_2_3,JOB,2,3,American Standard Version (1901),"World English Bible, British Edition",0.91,"And Jehovah said unto Satan, Hast thou considered my servant Job? for there is none like him in the earth, a perfect and an upright man, one that feareth God, and turneth away from evil: and he still holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.","The LORD said to Satan, “Have you considered my servant Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil. He still maintains his integrity, although you incited me against him, to ruin him without
+cause.”
+"
+JOB_2_3,JOB,2,3,Bible in Basic English,Darby Bible,0.84,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil? and he still keeps his righteousness, though you have been moving me to send destruction on him without cause.","And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil? and still he remaineth firm in his integrity, though thou movedst me against him, to swallow him up without cause."
+JOB_2_3,JOB,2,3,Bible in Basic English,Douay-Rheims 1899 American Edition,0.83,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil? and he still keeps his righteousness, though you have been moving me to send destruction on him without cause.","And the Lord said to Satan: Hast thou considered my servant Job, that there is none like him in the earth, a man simple, and upright, and fearing Cod, and avoiding evil, and still keeping his innocence ? But thou hast moved me against him, that I sho uld afflict him without cause."
+JOB_2_3,JOB,2,3,Bible in Basic English,King James Version,0.88,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil? and he still keeps his righteousness, though you have been moving me to send destruction on him without cause.","And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil? and still he holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.
+"
+JOB_2_3,JOB,2,3,Bible in Basic English,World English Bible,0.84,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil? and he still keeps his righteousness, though you have been moving me to send destruction on him without cause.","Yahweh said to Satan, “Have you considered my servant Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil. He still maintains his integrity, although you incited me against him, to ruin him without cause.”
+"
+JOB_2_3,JOB,2,3,Bible in Basic English,"World English Bible, British Edition",0.83,"And the Lord said to the Satan, Have you taken note of my servant Job, for there is no one like him on the earth, a man without sin and upright, fearing God and keeping himself far from evil? and he still keeps his righteousness, though you have been moving me to send destruction on him without cause.","The LORD said to Satan, “Have you considered my servant Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil. He still maintains his integrity, although you incited me against him, to ruin him without
+cause.”
+"
+JOB_2_3,JOB,2,3,Darby Bible,Douay-Rheims 1899 American Edition,0.85,"And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil? and still he remaineth firm in his integrity, though thou movedst me against him, to swallow him up without cause.","And the Lord said to Satan: Hast thou considered my servant Job, that there is none like him in the earth, a man simple, and upright, and fearing Cod, and avoiding evil, and still keeping his innocence ? But thou hast moved me against him, that I sho uld afflict him without cause."
+JOB_2_3,JOB,2,3,Darby Bible,King James Version,0.92,"And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil? and still he remaineth firm in his integrity, though thou movedst me against him, to swallow him up without cause.","And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil? and still he holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.
+"
+JOB_2_3,JOB,2,3,Darby Bible,World English Bible,0.86,"And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil? and still he remaineth firm in his integrity, though thou movedst me against him, to swallow him up without cause.","Yahweh said to Satan, “Have you considered my servant Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil. He still maintains his integrity, although you incited me against him, to ruin him without cause.”
+"
+JOB_2_3,JOB,2,3,Darby Bible,"World English Bible, British Edition",0.87,"And Jehovah said to Satan, Hast thou considered my servant Job, that there is none like him on the earth, a perfect and an upright man, one that feareth God and abstaineth from evil? and still he remaineth firm in his integrity, though thou movedst me against him, to swallow him up without cause.","The LORD said to Satan, “Have you considered my servant Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil. He still maintains his integrity, although you incited me against him, to ruin him without
+cause.”
+"
+JOB_2_3,JOB,2,3,Douay-Rheims 1899 American Edition,King James Version,0.84,"And the Lord said to Satan: Hast thou considered my servant Job, that there is none like him in the earth, a man simple, and upright, and fearing Cod, and avoiding evil, and still keeping his innocence ? But thou hast moved me against him, that I sho uld afflict him without cause.","And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil? and still he holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.
+"
+JOB_2_3,JOB,2,3,Douay-Rheims 1899 American Edition,World English Bible,0.86,"And the Lord said to Satan: Hast thou considered my servant Job, that there is none like him in the earth, a man simple, and upright, and fearing Cod, and avoiding evil, and still keeping his innocence ? But thou hast moved me against him, that I sho uld afflict him without cause.","Yahweh said to Satan, “Have you considered my servant Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil. He still maintains his integrity, although you incited me against him, to ruin him without cause.”
+"
+JOB_2_3,JOB,2,3,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.86,"And the Lord said to Satan: Hast thou considered my servant Job, that there is none like him in the earth, a man simple, and upright, and fearing Cod, and avoiding evil, and still keeping his innocence ? But thou hast moved me against him, that I sho uld afflict him without cause.","The LORD said to Satan, “Have you considered my servant Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil. He still maintains his integrity, although you incited me against him, to ruin him without
+cause.”
+"
+JOB_2_3,JOB,2,3,King James Version,World English Bible,0.85,"And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil? and still he holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.
+","Yahweh said to Satan, “Have you considered my servant Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil. He still maintains his integrity, although you incited me against him, to ruin him without cause.”
+"
+JOB_2_3,JOB,2,3,King James Version,"World English Bible, British Edition",0.84,"And the LORD said unto Satan, Hast thou considered my servant Job, that
+there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil? and still he holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.
+","The LORD said to Satan, “Have you considered my servant Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil. He still maintains his integrity, although you incited me against him, to ruin him without
+cause.”
+"
+JOB_2_3,JOB,2,3,World English Bible,"World English Bible, British Edition",0.98,"Yahweh said to Satan, “Have you considered my servant Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil. He still maintains his integrity, although you incited me against him, to ruin him without cause.”
+","The LORD said to Satan, “Have you considered my servant Job? For
+there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away
+from evil. He still maintains his integrity, although you incited me against him, to ruin him without
+cause.”
+"
+JOB_2_4,JOB,2,4,American Standard Version (1901),Bible in Basic English,0.88,"And Satan answered Jehovah, and said, Skin for skin, yea, all that a man hath will he give for his life.","And the Satan said in answer to the Lord, Skin for skin, all a man has he will give for his life."
+JOB_2_4,JOB,2,4,American Standard Version (1901),Darby Bible,0.99,"And Satan answered Jehovah, and said, Skin for skin, yea, all that a man hath will he give for his life.","And Satan answered Jehovah and said, Skin for skin, yea, all that a man hath will he give for his life;"
+JOB_2_4,JOB,2,4,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.97,"And Satan answered Jehovah, and said, Skin for skin, yea, all that a man hath will he give for his life.","And Satan answered, and said: Skin for skin, and all that a man hath he will give for his life:"
+JOB_2_4,JOB,2,4,American Standard Version (1901),King James Version,0.99,"And Satan answered Jehovah, and said, Skin for skin, yea, all that a man hath will he give for his life.","And Satan answered the LORD, and said, Skin for skin, yea, all that a man hath will he give for his life.
+"
+JOB_2_4,JOB,2,4,American Standard Version (1901),World English Bible,0.95,"And Satan answered Jehovah, and said, Skin for skin, yea, all that a man hath will he give for his life.","Satan answered Yahweh, and said, “Skin for skin. Yes, all that a man has he will give for his life.
+"
+JOB_2_4,JOB,2,4,American Standard Version (1901),"World English Bible, British Edition",0.94,"And Satan answered Jehovah, and said, Skin for skin, yea, all that a man hath will he give for his life.","Satan answered the LORD, and said, “Skin for skin. Yes, all that
+a man has he will give for his life.
+"
+JOB_2_4,JOB,2,4,Bible in Basic English,Darby Bible,0.86,"And the Satan said in answer to the Lord, Skin for skin, all a man has he will give for his life.","And Satan answered Jehovah and said, Skin for skin, yea, all that a man hath will he give for his life;"
+JOB_2_4,JOB,2,4,Bible in Basic English,Douay-Rheims 1899 American Edition,0.89,"And the Satan said in answer to the Lord, Skin for skin, all a man has he will give for his life.","And Satan answered, and said: Skin for skin, and all that a man hath he will give for his life:"
+JOB_2_4,JOB,2,4,Bible in Basic English,King James Version,0.90,"And the Satan said in answer to the Lord, Skin for skin, all a man has he will give for his life.","And Satan answered the LORD, and said, Skin for skin, yea, all that a man hath will he give for his life.
+"
+JOB_2_4,JOB,2,4,Bible in Basic English,World English Bible,0.92,"And the Satan said in answer to the Lord, Skin for skin, all a man has he will give for his life.","Satan answered Yahweh, and said, “Skin for skin. Yes, all that a man has he will give for his life.
+"
+JOB_2_4,JOB,2,4,Bible in Basic English,"World English Bible, British Edition",0.94,"And the Satan said in answer to the Lord, Skin for skin, all a man has he will give for his life.","Satan answered the LORD, and said, “Skin for skin. Yes, all that
+a man has he will give for his life.
+"
+JOB_2_4,JOB,2,4,Darby Bible,Douay-Rheims 1899 American Edition,0.96,"And Satan answered Jehovah and said, Skin for skin, yea, all that a man hath will he give for his life;","And Satan answered, and said: Skin for skin, and all that a man hath he will give for his life:"
+JOB_2_4,JOB,2,4,Darby Bible,King James Version,0.98,"And Satan answered Jehovah and said, Skin for skin, yea, all that a man hath will he give for his life;","And Satan answered the LORD, and said, Skin for skin, yea, all that a man hath will he give for his life.
+"
+JOB_2_4,JOB,2,4,Darby Bible,World English Bible,0.94,"And Satan answered Jehovah and said, Skin for skin, yea, all that a man hath will he give for his life;","Satan answered Yahweh, and said, “Skin for skin. Yes, all that a man has he will give for his life.
+"
+JOB_2_4,JOB,2,4,Darby Bible,"World English Bible, British Edition",0.93,"And Satan answered Jehovah and said, Skin for skin, yea, all that a man hath will he give for his life;","Satan answered the LORD, and said, “Skin for skin. Yes, all that
+a man has he will give for his life.
+"
+JOB_2_4,JOB,2,4,Douay-Rheims 1899 American Edition,King James Version,0.96,"And Satan answered, and said: Skin for skin, and all that a man hath he will give for his life:","And Satan answered the LORD, and said, Skin for skin, yea, all that a man hath will he give for his life.
+"
+JOB_2_4,JOB,2,4,Douay-Rheims 1899 American Edition,World English Bible,0.93,"And Satan answered, and said: Skin for skin, and all that a man hath he will give for his life:","Satan answered Yahweh, and said, “Skin for skin. Yes, all that a man has he will give for his life.
+"
+JOB_2_4,JOB,2,4,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.92,"And Satan answered, and said: Skin for skin, and all that a man hath he will give for his life:","Satan answered the LORD, and said, “Skin for skin. Yes, all that
+a man has he will give for his life.
+"
+JOB_2_4,JOB,2,4,King James Version,World English Bible,0.95,"And Satan answered the LORD, and said, Skin for skin, yea, all that a man hath will he give for his life.
+","Satan answered Yahweh, and said, “Skin for skin. Yes, all that a man has he will give for his life.
+"
+JOB_2_4,JOB,2,4,King James Version,"World English Bible, British Edition",0.95,"And Satan answered the LORD, and said, Skin for skin, yea, all that a man hath will he give for his life.
+","Satan answered the LORD, and said, “Skin for skin. Yes, all that
+a man has he will give for his life.
+"
+JOB_2_4,JOB,2,4,World English Bible,"World English Bible, British Edition",0.99,"Satan answered Yahweh, and said, “Skin for skin. Yes, all that a man has he will give for his life.
+","Satan answered the LORD, and said, “Skin for skin. Yes, all that
+a man has he will give for his life.
+"
+JOB_1_5,JOB,1,5,American Standard Version (1901),Bible in Basic English,0.85,"And it was so, when the days of their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt-offerings according to the number of them all: for Job said, It may be that my sons have sinned, and renounced God in their hearts. Thus did Job continually.","And at the end of their days of feasting, Job sent and made them clean, getting up early in the morning and offering burned offerings for them all. For, Job said, It may be that my sons have done wrong and said evil of God in their hearts. And Job did this whenever the feasts came round."
+JOB_1_5,JOB,1,5,American Standard Version (1901),Darby Bible,0.94,"And it was so, when the days of their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt-offerings according to the number of them all: for Job said, It may be that my sons have sinned, and renounced God in their hearts. Thus did Job continually.","And it was so, when the days of the feasting were gone about, that Job sent and hallowed them; and he rose up early in the morning, and offered up burnt-offerings [according to] the number of them all; for Job said, It may be that my children have sinned, and cursed God in their hearts. Thus did Job continually."
+JOB_1_5,JOB,1,5,American Standard Version (1901),Douay-Rheims 1899 American Edition,0.84,"And it was so, when the days of their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt-offerings according to the number of them all: for Job said, It may be that my sons have sinned, and renounced God in their hearts. Thus did Job continually.","And when the days of their feasting were gone about, Job sent to them, and sanctified them: and rising up early offered holocausts for every one of them. For he said: Lest perhaps my sons have sinned, and have blessed God in their hearts. So did Job all days."
+JOB_1_5,JOB,1,5,American Standard Version (1901),King James Version,0.98,"And it was so, when the days of their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt-offerings according to the number of them all: for Job said, It may be that my sons have sinned, and renounced God in their hearts. Thus did Job continually.","And it was so, when the days of
+their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings
+according to the number of them all: for Job said, It may be that my sons have sinned, and cursed God in their hearts. Thus did Job continually.
+"
+JOB_1_5,JOB,1,5,American Standard Version (1901),World English Bible,0.97,"And it was so, when the days of their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt-offerings according to the number of them all: for Job said, It may be that my sons have sinned, and renounced God in their hearts. Thus did Job continually.","It was so, when the days of their feasting had run their course, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,American Standard Version (1901),"World English Bible, British Edition",0.97,"And it was so, when the days of their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt-offerings according to the number of them all: for Job said, It may be that my sons have sinned, and renounced God in their hearts. Thus did Job continually.","It was so, when the days of their feasting had run their course, that
+Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according
+to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their
+hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,Bible in Basic English,Darby Bible,0.84,"And at the end of their days of feasting, Job sent and made them clean, getting up early in the morning and offering burned offerings for them all. For, Job said, It may be that my sons have done wrong and said evil of God in their hearts. And Job did this whenever the feasts came round.","And it was so, when the days of the feasting were gone about, that Job sent and hallowed them; and he rose up early in the morning, and offered up burnt-offerings [according to] the number of them all; for Job said, It may be that my children have sinned, and cursed God in their hearts. Thus did Job continually."
+JOB_1_5,JOB,1,5,Bible in Basic English,Douay-Rheims 1899 American Edition,0.81,"And at the end of their days of feasting, Job sent and made them clean, getting up early in the morning and offering burned offerings for them all. For, Job said, It may be that my sons have done wrong and said evil of God in their hearts. And Job did this whenever the feasts came round.","And when the days of their feasting were gone about, Job sent to them, and sanctified them: and rising up early offered holocausts for every one of them. For he said: Lest perhaps my sons have sinned, and have blessed God in their hearts. So did Job all days."
+JOB_1_5,JOB,1,5,Bible in Basic English,King James Version,0.86,"And at the end of their days of feasting, Job sent and made them clean, getting up early in the morning and offering burned offerings for them all. For, Job said, It may be that my sons have done wrong and said evil of God in their hearts. And Job did this whenever the feasts came round.","And it was so, when the days of
+their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings
+according to the number of them all: for Job said, It may be that my sons have sinned, and cursed God in their hearts. Thus did Job continually.
+"
+JOB_1_5,JOB,1,5,Bible in Basic English,World English Bible,0.85,"And at the end of their days of feasting, Job sent and made them clean, getting up early in the morning and offering burned offerings for them all. For, Job said, It may be that my sons have done wrong and said evil of God in their hearts. And Job did this whenever the feasts came round.","It was so, when the days of their feasting had run their course, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,Bible in Basic English,"World English Bible, British Edition",0.85,"And at the end of their days of feasting, Job sent and made them clean, getting up early in the morning and offering burned offerings for them all. For, Job said, It may be that my sons have done wrong and said evil of God in their hearts. And Job did this whenever the feasts came round.","It was so, when the days of their feasting had run their course, that
+Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according
+to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their
+hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,Darby Bible,Douay-Rheims 1899 American Edition,0.80,"And it was so, when the days of the feasting were gone about, that Job sent and hallowed them; and he rose up early in the morning, and offered up burnt-offerings [according to] the number of them all; for Job said, It may be that my children have sinned, and cursed God in their hearts. Thus did Job continually.","And when the days of their feasting were gone about, Job sent to them, and sanctified them: and rising up early offered holocausts for every one of them. For he said: Lest perhaps my sons have sinned, and have blessed God in their hearts. So did Job all days."
+JOB_1_5,JOB,1,5,Darby Bible,King James Version,0.96,"And it was so, when the days of the feasting were gone about, that Job sent and hallowed them; and he rose up early in the morning, and offered up burnt-offerings [according to] the number of them all; for Job said, It may be that my children have sinned, and cursed God in their hearts. Thus did Job continually.","And it was so, when the days of
+their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings
+according to the number of them all: for Job said, It may be that my sons have sinned, and cursed God in their hearts. Thus did Job continually.
+"
+JOB_1_5,JOB,1,5,Darby Bible,World English Bible,0.92,"And it was so, when the days of the feasting were gone about, that Job sent and hallowed them; and he rose up early in the morning, and offered up burnt-offerings [according to] the number of them all; for Job said, It may be that my children have sinned, and cursed God in their hearts. Thus did Job continually.","It was so, when the days of their feasting had run their course, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,Darby Bible,"World English Bible, British Edition",0.92,"And it was so, when the days of the feasting were gone about, that Job sent and hallowed them; and he rose up early in the morning, and offered up burnt-offerings [according to] the number of them all; for Job said, It may be that my children have sinned, and cursed God in their hearts. Thus did Job continually.","It was so, when the days of their feasting had run their course, that
+Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according
+to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their
+hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,Douay-Rheims 1899 American Edition,King James Version,0.85,"And when the days of their feasting were gone about, Job sent to them, and sanctified them: and rising up early offered holocausts for every one of them. For he said: Lest perhaps my sons have sinned, and have blessed God in their hearts. So did Job all days.","And it was so, when the days of
+their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings
+according to the number of them all: for Job said, It may be that my sons have sinned, and cursed God in their hearts. Thus did Job continually.
+"
+JOB_1_5,JOB,1,5,Douay-Rheims 1899 American Edition,World English Bible,0.81,"And when the days of their feasting were gone about, Job sent to them, and sanctified them: and rising up early offered holocausts for every one of them. For he said: Lest perhaps my sons have sinned, and have blessed God in their hearts. So did Job all days.","It was so, when the days of their feasting had run their course, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,Douay-Rheims 1899 American Edition,"World English Bible, British Edition",0.81,"And when the days of their feasting were gone about, Job sent to them, and sanctified them: and rising up early offered holocausts for every one of them. For he said: Lest perhaps my sons have sinned, and have blessed God in their hearts. So did Job all days.","It was so, when the days of their feasting had run their course, that
+Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according
+to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their
+hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,King James Version,World English Bible,0.94,"And it was so, when the days of
+their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings
+according to the number of them all: for Job said, It may be that my sons have sinned, and cursed God in their hearts. Thus did Job continually.
+","It was so, when the days of their feasting had run their course, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,King James Version,"World English Bible, British Edition",0.94,"And it was so, when the days of
+their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings
+according to the number of them all: for Job said, It may be that my sons have sinned, and cursed God in their hearts. Thus did Job continually.
+","It was so, when the days of their feasting had run their course, that
+Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according
+to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their
+hearts.” Job did so continually.
+"
+JOB_1_5,JOB,1,5,World English Bible,"World English Bible, British Edition",1.00,"It was so, when the days of their feasting had run their course, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their hearts.” Job did so continually.
+","It was so, when the days of their feasting had run their course, that
+Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according
+to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their
+hearts.” Job did so continually.
 "

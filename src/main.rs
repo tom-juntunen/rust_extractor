@@ -1,14 +1,15 @@
-use serde::{Deserialize, Serialize};
+
 use std::fs::{self, File, OpenOptions};
 use std::io::{self, BufReader, Write, BufWriter};
-use csv::Writer;
+use std::thread;
+use std::time::Duration;
 use std::collections::HashMap;
 use std::path::{PathBuf, Path};
-use strsim::normalized_damerau_levenshtein;
+use csv::Writer;
+use serde::{Deserialize, Serialize};
 use reqwest::blocking::Client;
 use rust_bert::pipelines::sentence_embeddings::{SentenceEmbeddingsBuilder, SentenceEmbeddingsModelType};
 
-const FUZZY_MATCH_THRESHOLD: f64 = 0.80;
 
 #[derive(Debug, Serialize, Deserialize)]
 struct BibleVerse {
@@ -24,8 +25,8 @@ struct BibleVerse {
 struct Verse {
     book_id: String,
     book_name: Option<String>,
-    chapter: u32,
-    verse: u32,
+    chapter: i32,
+    verse: i32,
     text: String,
 }
 
@@ -36,61 +37,92 @@ struct ErrorResponse {
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 struct TranslationDetail {
+    key: String,
+    book_id: String,
+    chapter: i32,
+    verse: i32,
     text: String,
     name: String,
     embedding: Vec<f32>,
 }
 
-fn visit_dirs(dir: &PathBuf, reference: &str, verse_map: &mut HashMap<String, Vec<TranslationDetail>>) -> io::Result<()> {
+fn visit_dirs(dir: &PathBuf, verse_map: &mut HashMap<String, Vec<TranslationDetail>>) -> io::Result<()> {
     for entry in fs::read_dir(dir)? {
         let entry = entry?;
         let path = entry.path();
+        println!("Visiting path: {:?}", path);  // Debugging statement to show current path
         if path.is_dir() {
-            visit_dirs(&path, reference, verse_map)?;
+            println!("Entering directory: {:?}", path);  // Debug when entering a directory
+            visit_dirs(&path, verse_map)?;
         } else if path.is_file() {
             let file = File::open(&path)?;
             let reader = BufReader::new(file);
             let verse: BibleVerse = serde_json::from_reader(reader)?;
+            println!("Loaded file: {:?}", path);  // Debug successful file load
 
             // Loop through all verses in the BibleVerse object
-            if let Some(verse_data) = verse.verses.iter().find(|_v| {
-                let similarity = normalized_damerau_levenshtein(&verse.reference, reference);
-                similarity >= FUZZY_MATCH_THRESHOLD
-            }) {
-                let key = format!("{}_{}_{}", verse_data.book_id, verse_data.chapter, verse_data.verse);
-                // Append verse text and translation name as a TranslationDetail object to the verse_map
-                let detail = TranslationDetail {
-                    text: verse_data.text.clone(),
-                    name: verse.translation_name.clone(),
-                    embedding: vec![],  // Initialize with an empty vector; embeddings will be filled in later
-                };
-                verse_map.entry(key).or_default().push(detail);
+            let file_part_ref = format!("{}_{}", verse.verses[0].chapter, verse.translation_id);
+            let contains_file_part = path.to_str()
+                .map(|s| s.contains(&file_part_ref))
+                .unwrap_or(false);
+            let contains_reference = path.to_str()
+                .map(|s| s.contains(&verse.verses[0].book_id))
+                .unwrap_or(false);
+           
+            if contains_file_part && contains_reference {
+                println!("Reference '{:?}' contains file part match '{}'.", path.to_str(), contains_file_part);  // Debug matching reference
+                for verse_data in verse.verses.iter() {
+                    let key = format!("{}_{}_{}", verse_data.book_id, verse_data.chapter, verse_data.verse);
+                    println!("Processing verse with key '{}'.", key);  // Debug each verse processed
+                    let detail = TranslationDetail {
+                        key: key.clone(),
+                        book_id: verse_data.book_id.clone(),
+                        chapter: verse_data.chapter,
+                        verse: verse_data.verse,
+                        text: verse_data.text.clone(),
+                        name: verse.translation_name.clone(),
+                        embedding: vec![],
+                    };
+                    verse_map.entry(key).or_default().push(detail);
+                }
+            } else {
+                println!("Reference '{:?}' does not contain file part match '{}' or ref match '{}'.", path.to_str(), contains_file_part, contains_reference);  // Debug non-matching reference
             }
         }
     }
     Ok(())
 }
 
-fn process_verses(verse_map: &mut HashMap<String, Vec<TranslationDetail>>, reference: &str, translations_dir: &PathBuf) -> Result<(), Box<dyn std::error::Error>> {
+fn process_verses(verse_map: &mut HashMap<String, Vec<TranslationDetail>>, translations_dir: &PathBuf) -> Result<(), Box<dyn std::error::Error>> {
     // First, visit directories and populate the verse_map
-    visit_dirs(translations_dir, reference, verse_map)?;
+    visit_dirs(translations_dir, verse_map)?;
 
     // Iterate through each translation in verse_map
     for (_key, translations) in verse_map.iter_mut() {
-        for translation in translations.iter_mut() {
-            // Replace newlines with spaces and trim leading/trailing whitespace
+        let mut texts = Vec::new();
+        let mut index_map = Vec::new();
+
+        // Prepare batch for processing
+        for (index, translation) in translations.iter_mut().enumerate() {
             let cleaned_translation = translation.text.replace('\n', " ").trim().to_string();
-
-            // Generate embeddings for the cleaned and trimmed text
-            match generate_embeddings(&cleaned_translation) {
-                Ok(embedding) => translation.embedding = embedding,
-                Err(e) => eprintln!("Failed to generate embeddings for {} due to {}", translation.name, e),
-            }
+            texts.push(cleaned_translation);
+            index_map.push(index);
         }
-    }
 
+        // Generate embeddings for the batch
+        if let Ok(embeddings) = generate_embeddings(&texts) {
+            for (embedding, index) in embeddings.into_iter().zip(index_map) {
+                translations[index].embedding = embedding;
+            }
+        } else {
+            eprintln!("Failed to generate embeddings");
+        }
+
+        println!("Processed verses for key: {}", _key);
+    }
     Ok(())
 }
+
 
 fn dot_product(a: &[f32], b: &[f32]) -> f32 {
     a.iter().zip(b.iter()).map(|(x, y)| x * y).sum()
@@ -107,12 +139,13 @@ fn cosine_similarity(vec1: &[f32], vec2: &[f32]) -> f32 {
     dot / (mag1 * mag2)
 }
 
-fn generate_embeddings(cleaned_translation: &str) -> Result<Vec<f32>, Box<dyn std::error::Error>> {
+fn generate_embeddings(sentences: &[String]) -> Result<Vec<Vec<f32>>, Box<dyn std::error::Error>> {
     let model = SentenceEmbeddingsBuilder::remote(SentenceEmbeddingsModelType::AllMiniLmL12V2).create_model()?;
-    let sentences = [cleaned_translation];
-    let embeddings = model.encode(&sentences)?;
-    Ok(embeddings[0].clone())
+    let embeddings = model.encode(sentences)?;
+    Ok(embeddings)
 }
+
+
 
 // Function to write the data to a CSV file
 fn write_to_csv(verse_map: &HashMap<String, Vec<TranslationDetail>>) -> Result<(), Box<dyn std::error::Error>> {
@@ -128,7 +161,7 @@ fn write_to_csv(verse_map: &HashMap<String, Vec<TranslationDetail>>) -> Result<(
 
     // Write the header only if the file did not exist
     if !file_exists {
-        wtr.write_record(["Verse Key", "Translation 1", "Translation 2", "Similarity", "Text 1", "Text 2"])?;
+        wtr.write_record(["Verse Key", "Book ID", "Chapter", "Verse", "Translation 1", "Translation 2", "Similarity", "Text 1", "Text 2"])?;
     }
 
     // Iterate over your data and write each record, ensuring automatic quoting where necessary
@@ -138,6 +171,9 @@ fn write_to_csv(verse_map: &HashMap<String, Vec<TranslationDetail>>) -> Result<(
                 let sim = cosine_similarity(&translations[i].embedding, &translations[j].embedding);
                 wtr.write_record([
                     key,
+                    &translations[i].book_id,
+                    &format!("{:.0}", &translations[i].chapter),
+                    &format!("{:.0}", &translations[i].verse),
                     &translations[i].name,
                     &translations[j].name,
                     &format!("{:.2}", sim),
@@ -156,7 +192,6 @@ fn write_to_csv(verse_map: &HashMap<String, Vec<TranslationDetail>>) -> Result<(
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let translations = [
         ("cherokee", "Cherokee New Testament"),
-        ("bkr", "Bible kralická"),
         ("asv", "American Standard Version (1901)"),
         ("bbe", "Bible in Basic English"),
         ("darby", "Darby Bible"),
@@ -167,58 +202,61 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         ("oeb-cw", "Open English Bible, Commonwealth Edition"),
         ("webbe", "World English Bible, British Edition"),
         ("oeb-us", "Open English Bible, US Edition"),
-        ("clementine", "Clementine Latin Vulgate"),
-        ("almeida", "João Ferreira de Almeida"),
-        ("rccv", "Protestant Romanian Corrected Cornilescu Version"),
     ];
 
-    let reference = "job 1:3";
+    let references = ["Job 2:1-8"];
     let desktop_path = dirs::desktop_dir().expect("Failed to get desktop directory");
     let translations_dir = desktop_path.join("bibles");
+    println!("{:?}", references);
 
-    // "Do not use this API to download an entire bible, one verse or chapter-at-a-time. That's absolutely nuts. Please get the data from the source." - Tim Morgan
     let client = Client::new();
-    for (id, name) in translations.iter() {
-        let url = format!("https://bible-api.com/{}?translation={}", reference, id);
-        let response = client.get(&url).send()?;
+    for reference in references.iter() {
+        let mut verse_map: HashMap<String, Vec<TranslationDetail>> = HashMap::new();  // Reset here for each reference
+        /*
+        */
+        
+        // "Do not use this API to download an entire bible, one verse or chapter-at-a-time. That's absolutely nuts. Please get the data from the source." - Tim Morgan
+        
 
-         if response.status().is_success() {
-            let response_text = response.text()?;
-            if let Ok(err) = serde_json::from_str::<ErrorResponse>(&response_text) {
-                if err.error == "not found" {
-                    println!("Translation '{}' for {} is not available.", name, reference);
-                    continue;
+        for (id, name) in translations.iter() {
+            let url = format!("https://bible-api.com/{}?translation={}", reference, id);
+
+            let response = client.get(&url).send()?;
+
+            if response.status().is_success() {
+                let response_text = response.text()?;
+                if let Ok(err) = serde_json::from_str::<ErrorResponse>(&response_text) {
+                    if err.error == "not found" {
+                        println!("Translation '{}' for {} is not available.", name, reference);
+                        continue;
+                    }
                 }
+                
+                let verse: BibleVerse = serde_json::from_str(&response_text)?;
+                let path = translations_dir.join(&verse.verses[0].book_id).join(id);
+                fs::create_dir_all(&path)?;
+
+                let filename = format!("{}_{}.json", verse.verses[0].chapter, verse.translation_id);
+                let json_path = path.join(filename);
+
+                let mut file = File::create(&json_path)?;
+                let json_data = serde_json::to_string_pretty(&verse)?;
+                file.write_all(json_data.as_bytes())?;
+                println!("Bible verse data for {} saved to: {:?}", name, json_path);
+
+            } else {
+                println!("Failed to fetch data for {}: HTTP Status {}", name, response.status());
             }
-            
-            let verse: BibleVerse = serde_json::from_str(&response_text)?;
+        }
 
-            let path = translations_dir.join(&verse.verses[0].book_id).join(id);
-            fs::create_dir_all(&path)?;
-
-            let filename = format!("{}_{}_{}_{}.json", verse.verses[0].chapter, verse.verses[0].verse, verse.reference.replace(':', "_"), verse.translation_id);
-            let json_path = path.join(filename);
-
-            let mut file = OpenOptions::new()
-                .write(true)
-                .create(true)
-                .truncate(true)
-                .open(&json_path)?;
-
-            let json_data = serde_json::to_string_pretty(&verse)?;
-            file.write_all(json_data.as_bytes())?;
-            println!("Bible verse data for {} saved to: {:?}", name, json_path);
-        } else {
-            println!("Failed to fetch data for {}: HTTP Status {}", name, response.status());
+        // Fill the verse map for the current chapter
+        process_verses(&mut verse_map, &translations_dir)?;
+        
+        // Write to CSV once after processing all translations for a reference
+        if !verse_map.is_empty() {
+            write_to_csv(&verse_map)?;
         }
     }
-
-    // Aggregate verses from all translation files
-    let mut verse_map: HashMap<String, Vec<TranslationDetail>> = HashMap::new();
-    
-    // Process verses to fill verse_map with data and embeddings
-    process_verses(&mut verse_map, reference, &translations_dir)?;
-    write_to_csv(&verse_map)?;
 
     Ok(())
 }
