@@ -9,7 +9,7 @@ use csv::Writer;
 use serde::{Deserialize, Serialize};
 use reqwest::blocking::Client;
 use rust_bert::pipelines::sentence_embeddings::{SentenceEmbeddingsBuilder, SentenceEmbeddingsModelType};
-use tch::{Device, Cuda};
+use tch::Device;
 
 #[derive(Debug, Serialize, Deserialize)]
 struct BibleVerse {
