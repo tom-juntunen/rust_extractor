@@ -206,14 +206,19 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // let references = ["Job 3:1-26", "Job 4:1-21", "Job 5:1-27"];
     // let references = ["Job 3:1-13", "Job 3:14-26"];
-    let references = ["Job 2-3", "Job 4-5", "Job 6-7", "Job 8-9", "Job 10-11"];
+    let references = ["Job 13:1-28", "Job 14:1-22", "Job 15:1-35", "Job 16:1-22", "Job 17:1-16"];
     let desktop_path = dirs::desktop_dir().expect("Failed to get desktop directory");
-    let translations_dir = desktop_path.join("bibles");
     println!("{:?}", references);
 
     let client = Client::new();
     for reference in references.iter() {
         let mut verse_map: HashMap<String, Vec<TranslationDetail>> = HashMap::new();  // Reset here for each reference
+        let translations_dir = desktop_path.join("bibles");
+        if translations_dir.exists() {
+            fs::remove_dir_all(&translations_dir)?;
+        }
+        fs::create_dir(&translations_dir)?;
+
         /*
         */
         
