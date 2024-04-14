@@ -61,7 +61,7 @@ fn visit_dirs(dir: &PathBuf, verse_map: &mut HashMap<String, Vec<TranslationDeta
             println!("Loaded file: {:?}", path);  // Debug successful file load
 
             // Loop through all verses in the BibleVerse object
-            let file_part_ref = format!("{}_{}", verse.verses[0].chapter, verse.translation_id);
+            let file_part_ref = format!("{}_{:03}", verse.verses[0].chapter, verse.translation_id);
             let contains_file_part = path.to_str()
                 .map(|s| s.contains(&file_part_ref))
                 .unwrap_or(false);
@@ -72,7 +72,7 @@ fn visit_dirs(dir: &PathBuf, verse_map: &mut HashMap<String, Vec<TranslationDeta
             if contains_file_part && contains_reference {
                 println!("Reference '{:?}' contains file part match '{}'.", path.to_str(), contains_file_part);  // Debug matching reference
                 for verse_data in verse.verses.iter() {
-                    let key = format!("{}_{}_{}", verse_data.book_id, verse_data.chapter, verse_data.verse);
+                    let key = format!("{}_{:03}_{:03}", verse_data.book_id, verse_data.chapter,  verse_data.verse);
                     println!("Processing verse with key '{}'.", key);  // Debug each verse processed
                     let detail = TranslationDetail {
                         key: key.clone(),
@@ -172,8 +172,8 @@ fn write_to_csv(verse_map: &HashMap<String, Vec<TranslationDetail>>) -> Result<(
                 wtr.write_record([
                     key,
                     &translations[i].book_id,
-                    &format!("{:.0}", &translations[i].chapter),
-                    &format!("{:.0}", &translations[i].verse),
+                    &format!("{:03}", &translations[i].chapter),
+                    &format!("{:03}", &translations[i].verse),
                     &translations[i].name,
                     &translations[j].name,
                     &format!("{:.2}", sim),
@@ -204,7 +204,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         ("oeb-us", "Open English Bible, US Edition"),
     ];
 
-    let references = ["Job 2:1-8"];
+    // let references = ["Job 3:1-26", "Job 4:1-21", "Job 5:1-27"];
+    // let references = ["Job 3:1-13", "Job 3:14-26"];
+    let references = ["Job 2-3", "Job 4-5", "Job 6-7", "Job 8-9", "Job 10-11"];
     let desktop_path = dirs::desktop_dir().expect("Failed to get desktop directory");
     let translations_dir = desktop_path.join("bibles");
     println!("{:?}", references);
@@ -236,7 +238,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 let path = translations_dir.join(&verse.verses[0].book_id).join(id);
                 fs::create_dir_all(&path)?;
 
-                let filename = format!("{}_{}.json", verse.verses[0].chapter, verse.translation_id);
+                let filename = format!("{}_{:03}.json", verse.verses[0].chapter, verse.translation_id);
                 let json_path = path.join(filename);
 
                 let mut file = File::create(&json_path)?;
@@ -256,6 +258,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         if !verse_map.is_empty() {
             write_to_csv(&verse_map)?;
         }
+
+        println!("Sleeping for 5 minutes...");
+        thread::sleep(Duration::from_secs(5 * 60));
+
     }
 
     Ok(())
