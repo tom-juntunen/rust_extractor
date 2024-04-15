@@ -314,7 +314,7 @@ function highlightMatchingGrids(chapter, startVerse, endVerse) {
     });
 }
 
-function highlightMatchingAphorisms(chapter, verse) {
+function highlightMatchingAphorisms(chapter, verse, clickToScroll=false) {
     let foundMatch = false; // Flag to detect a match
     aphorismItems.forEach(function(aphorism) {
         const referenceText = aphorism.querySelector('.aphorism-text').textContent.trim();
@@ -326,6 +326,13 @@ function highlightMatchingAphorisms(chapter, verse) {
             aphorism.classList.add('highlighted');
             aphorism.querySelector('.aphorism-content').classList.add('visible');
             foundMatch = true; // Set foundMatch to true if a matching aphorism is found
+            if (clickToScroll) {
+                aphorism.scrollIntoView({
+                    behavior: 'smooth', // Smoothly scrolls the element into view
+                    block: 'nearest', // Vertical alignment: attempts to scroll minimizing the distance
+                    inline: 'start' // Horizontal alignment: aligns to the start of the box in LTR; end in RTL
+                });
+            }
         }
     });
     return foundMatch; // Return whether a match was found
@@ -404,7 +411,8 @@ function highlightMatchingAphorisms(chapter, verse) {
                 // Update heatmap based on new selection
                 const chapter = parseInt(this.getAttribute('data-chapter'));
                 const startVerse = parseInt(this.getAttribute('data-start-verse'));
-                if (highlightMatchingAphorisms(chapter, startVerse)) {
+                const clickToScroll = true;
+                if (highlightMatchingAphorisms(chapter, startVerse, clickToScroll)) {
                     this.classList.add('highlighted');
                 }
             } else {
