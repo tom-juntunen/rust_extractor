@@ -2,44 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Heatmap & Aphorisms</title>
+    <title>Aphorisms</title>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
             display: flex;
+            flex-direction: column; /* Changes the main axis to vertical */
             margin: 0;
             height: 100vh;
         }
+        .title-container {
+            text-align: center;
+            margin: 20px 0; /* Adds margin to separate title from content */
+        }
+        .title, .subtitle {
+            flex: 1;  
+            max-height: 50px;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin: 0 0 0 50px;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #666;
+            margin: 0 0 0 50px;
+        }
+        .content-container {
+            display: flex; /* Ensures horizontal layout */
+            flex: 1; /* Takes up remaining space */
+            align-items: flex-start; /* Aligns items to the start of the container */
+            overflow-y: auto; /* Adds scrolling if content is taller than the screen */
+        }
+
         #heatmap-container {
-            flex: 1;
-            padding: 50px 10px;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: left; /* Centers heatmap horizontally */
+            align-items: left; /* Centers heatmap vertically within its container */
+            min-width: 300px; /* Ensures a minimum width for smaller screens or less content */
+            padding: 20px;
         }
         #aphorisms-container {
             flex: 1;
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Automatically fits columns, each at least 250px wide */
+            gap: 10px; 
             padding: 20px;
-            overflow-y: auto;
+            overflow-y: auto; 
+            align-content: start; 
+            max-width: 775px;
         }
         .aphorism-item {
             border: 1px solid #ddd;
-            margin-bottom: 5px;
             padding: 10px;
             border-radius: 5px;
             transition: all 0.3s ease;
+            display: flex; 
+            flex-direction: column;
+            justify-content: left;  
+            text-align: left;
+            cursor: pointer;
+            position: relative; /* Needed for proper z-index handling */
+        }
+        .aphorism-item span {
+            text-align: center;
+            justify-content: center;
         }
         .aphorism-item:hover {
             background-color: #f0f0f0;
-            cursor: pointer;
         }
+
         .aphorism-content {
-            display: none;
-            padding-top: 10px;
+            display: none; 
         }
+
         .aphorism-content.visible {
-            display: block;
+            display: block; 
+            grid-column: span 4; /* Adjusts the grid column span when expanded */
+            animation: fadeIn 0.3s; /* Adds a fade-in effect for better UX */
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .legend-container {
+            position: absolute;
+            top: 90px;
+            right: 850px;
+        }
+        .legend {
+            font-size: 10px;
+        }
+
+        .legend rect {
+            shape-rendering: crispEdges;
+        }
+
+        .legend text {
+            fill: #000;
+            text-anchor: middle;
         }
         
         .highlighted {
@@ -53,26 +118,6 @@
             stroke-width: 2;
             z-index: 10;
         }
-        
-        .legend-container {
-            position: absolute; /* Position it over the heatmap or somewhere suitable */
-            top: 10px; /* You can adjust the position as needed */
-            left: 10px;
-            z-index: 10; /* Ensure it's above other elements */
-        }
-
-        .legend {
-            font-size: 10px;
-        }
-
-        .legend rect {
-            shape-rendering: crispEdges;
-        }
-
-        .legend text {
-            fill: #000;
-            text-anchor: middle;
-        }
 
         /* Style adjustments for the SVG container */
         svg {
@@ -83,24 +128,32 @@
     </style>
 </head>
 <body>
-    <div id="legend-container" class="legend-container">
-        <!-- Legend SVG will be appended here -->
+    <div class="title-container"></div>
+        <h1 class="title">Aphorisms</h1>
+        <h2 class="subtitle">From the Book of Job</h2>
     </div>
-    <div id="heatmap-container">
-        <!-- Heatmap SVG will be appended here -->
-    </div>
-    <div id="aphorisms-container">
-        {% for aphorism in aphorisms %}
-        <div class="aphorism-item">
-            <strong>Aphorism:</strong> <span class="aphorism-text">{{ aphorism.aphorism }}</span>
-            <div class="aphorism-content">
-                <p><strong>Reference:</strong> {{ aphorism.reference }}</p>
-                <p><strong>Text:</strong> "{{ aphorism.text.split('\n')[-1] }}" ({{ aphorism.translation }})</p>
-                <p><strong>Explanation:</strong> {{ aphorism.explanation }}</p>
-                <p><strong>Story:</strong> {{ aphorism.story }}</p>
-            </div>
+    <div class="content-container">
+        <div id="legend-container" class="legend-container">
+            <!-- Legend SVG will be appended here -->
         </div>
-        {% endfor %}
+        <div id="heatmap-container">
+            <!-- Heatmap SVG will be appended here -->
+        </div>
+        <div id="aphorisms-container">
+            {% for aphorism in aphorisms %}
+            <div class="aphorism-item" title="{{ aphorism.aphorism }}">
+
+                    <span class="aphorism-text">{{ aphorism.reference }}</span>
+                    <div class="aphorism-content">
+                        <p><strong>Reference:</strong> {{ aphorism.reference }}</p>
+                        <p><strong>Text:</strong> "{{ aphorism.text.split('\n')[-1] }}" ({{ aphorism.translation }})</p>
+                        <p><strong>Explanation:</strong> {{ aphorism.explanation }}</p>
+                        <p><strong>Story:</strong> {{ aphorism.story }}</p>
+                        <strong>Aphorism:</strong> <span>{{ aphorism.aphorism }}</span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 <script>        
 var heatmapData = {{ heatmap_data | tojson | safe }};
@@ -125,7 +178,7 @@ function parseReference(ref) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    var gridSize = 50; // Adjust this based on your heatmap size and number of data points
+    var gridSize = 40; // Adjust this based on your heatmap size and number of data points
     var gridMargin = { top: 50, right: 0, bottom: 100, left: 30 };
     var gridWidth = gridSize * Math.max(...heatmapData.map(d => d.col));
     var gridHeight = gridSize * Math.max(...heatmapData.map(d => d.row));
@@ -178,13 +231,14 @@ document.addEventListener('DOMContentLoaded', function() {
         .data(heatmapData)
         .enter().append('text')
         .attr('class', 'label')
+        .attr('font-size', '11px')
         .attr('cursor', 'pointer')
         .attr('pointer-events', 'none')
         .attr('x', d => xScale(d.col) + gridSize / 2)
         .attr('y', d => yScale(d.row) + gridSize / 2)
         .attr('dy', '.35em') // Vertical alignment
         .attr('text-anchor', 'middle') // Horizontal alignment
-        .text(d => d.Similarity.toFixed(2)); // Two decimal places
+        .text(d => d.Similarity.toFixed(1)); // One decimal place
         
     // Append a new SVG element for the legend
     var legendWidth = 300, legendHeight = 20, margin = {left: 20, right: 20, top: 20, bottom: 20};
@@ -229,6 +283,14 @@ document.addEventListener('DOMContentLoaded', function() {
         .attr('transform', 'translate(0,' + legendHeight + ')')
         .call(legendAxis);
 
+    // Add the legend title
+    legendSvg.append('text')
+        .attr('x', legendWidth / 2)
+        .attr('y', -10) // Adjust this value as needed to position the title above the legend
+        .attr('text-anchor', 'middle')
+        .style('font-weight', 'bold')
+        .text('Similarity between varying translations of verses in the Bible');
+
     const aphorismItems = document.querySelectorAll('.aphorism-item');
     const heatmapRects = document.querySelectorAll('.heatmap-rect');
     // var highlights = svg.append('g').classed('highlights', true);
@@ -255,20 +317,14 @@ function highlightMatchingGrids(chapter, startVerse, endVerse) {
 function highlightMatchingAphorisms(chapter, verse) {
     let foundMatch = false; // Flag to detect a match
     aphorismItems.forEach(function(aphorism) {
-        const referenceText = aphorism.querySelector('.aphorism-content p:first-child').textContent.trim();
-        const reference = referenceText.split('Reference:')[1].trim();
-        const match = parseReference(reference);
+        const referenceText = aphorism.querySelector('.aphorism-text').textContent.trim();
+        const match = parseReference(referenceText);
         if (!match) return false;
 
         const [aphorismChapter, aphorismStartVerse, aphorismEndVerse] = match;
         if (aphorismChapter == chapter && ((aphorismStartVerse <= verse && verse <= aphorismEndVerse) || (aphorismStartVerse <= verse && !aphorismEndVerse))) {
             aphorism.classList.add('highlighted');
             aphorism.querySelector('.aphorism-content').classList.add('visible');
-            aphorism.scrollIntoView({
-                behavior: 'smooth', // Smoothly scrolls the element into view
-                block: 'nearest', // Vertical alignment: attempts to scroll minimizing the distance
-                inline: 'start' // Horizontal alignment: aligns to the start of the box in LTR; end in RTL
-            });
             foundMatch = true; // Set foundMatch to true if a matching aphorism is found
         }
     });
@@ -291,10 +347,8 @@ function highlightMatchingAphorisms(chapter, verse) {
                 highlightLocked = true;
 
                 // Update heatmap based on new selection
-                const referenceP = this.querySelector('.aphorism-content p:first-child');
-                const referenceText = referenceP.textContent.trim();
-                const reference = referenceText.split('Reference:')[1].trim();
-                const match = parseReference(reference);
+                const referenceText = this.querySelector('.aphorism-text').textContent.trim();
+                const match = parseReference(referenceText);
                 if (match) {
                     const [chapter, startVerse, endVerse] = match;
                     highlightMatchingGrids(chapter, startVerse, endVerse);
@@ -311,10 +365,8 @@ function highlightMatchingAphorisms(chapter, verse) {
             if (!highlightLocked) {
                 clearHighlights();
                 this.classList.add('highlighted');
-                const referenceP = this.querySelector('.aphorism-content p:first-child');
-                const referenceText = referenceP.textContent.trim();
-                const reference = referenceText.split('Reference:')[1].trim();
-                const match = parseReference(reference);
+                const referenceText = this.querySelector('.aphorism-text').textContent.trim();
+                const match = parseReference(referenceText);
                 if (!match) {
                     console.error('Reference format error:', reference);
                     return;
@@ -340,6 +392,24 @@ function highlightMatchingAphorisms(chapter, verse) {
                 if (highlightMatchingAphorisms(chapter, startVerse)) {
                     this.classList.add('highlighted');
                 }
+            }
+        });
+        rect.addEventListener('click', function() {
+            
+            // Toggle visibility and highlighted class
+            if (!highlightLocked) {
+                clearHighlights();
+                highlightLocked = true;
+
+                // Update heatmap based on new selection
+                const chapter = parseInt(this.getAttribute('data-chapter'));
+                const startVerse = parseInt(this.getAttribute('data-start-verse'));
+                if (highlightMatchingAphorisms(chapter, startVerse)) {
+                    this.classList.add('highlighted');
+                }
+            } else {
+                this.classList.remove('highlighted');
+                highlightLocked = false;
             }
         });
     });

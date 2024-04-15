@@ -213,7 +213,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // let references = ["Job 3:1-26", "Job 4:1-21", "Job 5:1-27"];
     // let references = ["Job 3:1-13", "Job 3:14-26"];
-    let references = ["Job 22:1-30"];
+    let references = ["Job 28:1-28", "Job 29:1-25", "Job 30:1-31", "Job 31:1-40", "Job 32:1-22", "Job 33:1-33", 
+        "Job 34:1-37", "Job 35:1-16", "Job 36:1-33", "Job 37:1-24", "Job 38:1-41", "Job 39:1-30", "Job 40:1-24", "Job 41:1-34", "Job 42:1-6"];
     let desktop_path = dirs::desktop_dir().expect("Failed to get desktop directory");
     println!("{:?}", references);
 
