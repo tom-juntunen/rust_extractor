@@ -154,7 +154,7 @@
             align-items: center; /* Centers the heatmap vertically */
             padding: 20px;
             width: auto; /* Takes up the full available width of its parent */
-            max-height: 30vh; /* Limits the height to 50% of the viewport height */
+            min-height: 35vh;
             overflow-y: auto; /* Enables vertical scrolling when the content exceeds the container's height */
             overflow-x: auto; /* Enables horizontal scrolling when the content exceeds the container's width */
         }
@@ -176,7 +176,7 @@
             margin: 10px auto; /* Center it horizontally and add vertical spacing */
             padding: 0; /* No additional padding inside the container */
             visibility: hidden;  /* Keep all aphorisms initially hidden */
-            max-height: 30vh; /* Limits the height to 50% of the viewport height */
+            min-height: 80%;
             flex-direction: column;
             align-items: center; /* Center items vertically in the container */
             justify-content: center; /* Center content horizontally */
@@ -201,6 +201,7 @@
 
         .aphorism-content.visible {
             display: block;  /* Ensure the content is visible when the item is highlighted */
+            overflow-y: scroll;
         }
         .title-container {
             text-align: left;
@@ -247,7 +248,7 @@
                         <p><strong>Text:</strong> "{{ aphorism.text }}" ({{ aphorism.translation }})</p>
                         <p><strong>Explanation:</strong> {{ aphorism.explanation }}</p>
                         <p><strong>Story:</strong> {{ aphorism.story }}</p>
-                        <strong>Aphorism:</strong> <span>{{ aphorism.aphorism }}</span>
+                        <p><strong>Aphorism:</strong> {{ aphorism.aphorism }}</p>
                 </div>
             </div>
             {% endfor %}
@@ -276,6 +277,13 @@ function parseReference(ref) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+
+    // Scroll to a visible entity in the heatmap
+    var element = document.getElementById('1');
+    if (element && element.classList.contains('heatmap-rect')) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+    }
+
     var gridSize = 40; // Adjust this based on your heatmap size and number of data points
     var gridMargin = { top: 50, right: 0, bottom: 100, left: 30 };
     var gridWidth = gridSize * Math.max(...heatmapData.map(d => d.col));
@@ -283,6 +291,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var svg = d3.select('#heatmap-container').append('svg')
         .attr('width', gridWidth + gridMargin.left + gridMargin.right)
         .attr('height', gridHeight + gridMargin.top + gridMargin.bottom)
+        .attr('viewBox', "0 0 2100 1920")
         .append('g')
         .attr('transform', 'translate(' + gridMargin.left + ',' + gridMargin.top + ')');
 
@@ -316,6 +325,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var heatmap = svg.selectAll('rect')
         .data(heatmapData)
         .enter().append('rect')
+        .attr('id', function(d) { return d.key; })
         .attr('class', 'heatmap-rect')
         .attr('data-chapter', function(d) { return d.row; })
         .attr('data-start-verse', function(d) { return d.col; })

@@ -21,18 +21,20 @@ def load_similarity_report():
     df['Verse'] = df['Verse'].astype(int)
     
     # Group by 'Chapter' and 'Verse', then calculate the mean 'Similarity'.
-    grouped = df.groupby(['Chapter', 'Verse'], as_index=False)['Similarity'].mean()
+    grouped = df.groupby(['Verse Key', 'Chapter', 'Verse'], as_index=False)['Similarity'].mean()
     
     # Create a new column 'row' based on the unique chapters and 'column' based on verses.
     # The following will create a mapping from Chapter and Verse to a row and column index.
     chapter_to_row = {chap: idx for idx, chap in enumerate(grouped['Chapter'].unique(), start=1)}
     verse_to_col = {verse: idx for idx, verse in enumerate(grouped['Verse'].unique(), start=1)}
+    verse_key_to_key = {key: idx for idx, key in enumerate(grouped['Verse Key'].unique(), start=1)}
 
     grouped['row'] = grouped['Chapter'].map(chapter_to_row)
     grouped['col'] = grouped['Verse'].map(verse_to_col)
+    grouped['key'] = grouped['Verse Key'].map(verse_key_to_key)
     
     # Convert the aggregated DataFrame to a dictionary for passing to the template.
-    heatmap_data = grouped[['row', 'col', 'Similarity']].to_dict(orient='records')
+    heatmap_data = grouped[['key', 'row', 'col', 'Similarity']].to_dict(orient='records')
     return heatmap_data
 
 @app.route('/')
