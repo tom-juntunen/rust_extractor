@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Aphorisms</title>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <style>
@@ -13,8 +13,16 @@
             height: 100vh;
         }
         .title-container {
-            text-align: center;
+            text-align: left;
             margin: 20px 0; /* Adds margin to separate title from content */
+            display: flex;
+            flex-direction: row;
+        }
+        .titles {
+            text-align: left;
+            margin: 20px 0; /* Adds margin to separate title from content */
+            display: flex;
+            flex-direction: column;
         }
         .title, .subtitle {
             flex: 1;  
@@ -35,6 +43,7 @@
             flex: 1; /* Takes up remaining space */
             align-items: flex-start; /* Aligns items to the start of the container */
             overflow-y: auto; /* Adds scrolling if content is taller than the screen */
+            overflow-x: auto; /* Enables horizontal scrolling when the content exceeds the container's width */
         }
 
         #heatmap-container {
@@ -51,8 +60,8 @@
             gap: 10px; 
             padding: 20px;
             overflow-y: auto; 
-            align-content: start; 
-            max-width: 775px;
+            align-content: start;   
+            width: 800px;
         }
         .aphorism-item {
             border: 1px solid #ddd;
@@ -90,9 +99,8 @@
         }
 
         .legend-container {
-            position: absolute;
-            top: 90px;
-            right: 850px;
+            display: flex;
+            flex: 1;
         }
         .legend {
             font-size: 10px;
@@ -119,30 +127,99 @@
             z-index: 10;
         }
 
+        #subtitle-mobile {
+            display: none;
+        }
+
         /* Style adjustments for the SVG container */
         svg {
             display: block; /* To prevent extra space below the svg */
             margin: auto; /* Center align the SVG */
         }
+        /* Responsive styles for mobile devices */
+    @media (max-width: 768px) {
+        .content-container {
+            flex-direction: column;  /* Stack heatmap and aphorisms vertically */
+        }
+
+        #heatmap-container {
+            display: flex;
+            justify-content: center; /* Centers the heatmap horizontally */
+            align-items: center; /* Centers the heatmap vertically */
+            padding: 20px;
+            width: 100%; /* Takes up the full available width of its parent */
+            max-height: 50vh; /* Limits the height to 50% of the viewport height */
+            overflow-y: auto; /* Enables vertical scrolling when the content exceeds the container's height */
+            overflow-x: auto; /* Enables horizontal scrolling when the content exceeds the container's width */
+        }
+
+        svg {
+            display: block; /* Ensures SVG does not take more space than necessary */
+            width: 100%; /* Responsive width to fit the container */
+            min-height: 300px; /* Minimum height to ensure visibility of content */
+            overflow: visible; /* Ensures no clipping of SVG elements */
+        }
+
+        .label {
+            font-size: 8px;  /* Smaller text size for labels */
+        }
+
+        #aphorisms-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;  /* Adjust width to match heatmap */
+            visibility: hidden;  /* Initially hide all aphorisms */
+            margin-top: 10px;  /* Space between heatmap and aphorisms */
+            padding: 0;
+        }
+
+        .aphorism-item {
+            display: none;  /* Hide all items initially */
+        }
+
+        .aphorism-item.highlighted {
+            display: flex;  /* Only display when highlighted */
+            visibility: visible;  /* Make sure it's visible */
+        }
+
+        .aphorism-content.visible {
+            display: block;  /* Ensure the content is visible when the item is highlighted */
+        }
+        .title-container {
+            text-align: left;
+            margin: 20px 0; /* Adds margin to separate title from content */
+            display: flex;
+            flex-direction: column;
+        }
+        .legend-container {
+            max-height: 25px;
+        }
+
+        #subtitle-mobile {
+            display: block;
+        }
+    }
         
     </style>
 </head>
 <body>
-    <div class="title-container"></div>
-        <h1 class="title">Aphorisms</h1>
-        <h2 class="subtitle">From the Book of Job</h2>
-    </div>
-    <div class="content-container">
+    <div class="title-container">
+        <div class="titles">
+            <h1 class="title">Aphorisms</h1>
+            <h2 class="subtitle">From the Book of Job</h2>
+        </div>
         <div id="legend-container" class="legend-container">
             <!-- Legend SVG will be appended here -->
         </div>
+    </div>
+    <div class="content-container">
         <div id="heatmap-container">
             <!-- Heatmap SVG will be appended here -->
         </div>
+        <div id="subtitle-mobile"><h2>Selection</h2></div>
         <div id="aphorisms-container">
             {% for aphorism in aphorisms %}
             <div class="aphorism-item" title="{{ aphorism.aphorism }}">
-
                     <span class="aphorism-text">{{ aphorism.reference }}</span>
                     <div class="aphorism-content">
                         <p><strong>Reference:</strong> {{ aphorism.reference }}</p>
