@@ -60,6 +60,7 @@
             gap: 10px; 
             padding: 20px;
             overflow-y: auto; 
+            overflow-x: auto; 
             align-content: start;   
             width: 800px;
         }
@@ -138,8 +139,13 @@
         }
         /* Responsive styles for mobile devices */
     @media (max-width: 768px) {
+        /* Ensure the entire content container accommodates scrolling and layout adjustments */
         .content-container {
-            flex-direction: column;  /* Stack heatmap and aphorisms vertically */
+            flex-direction: column;
+            overflow-x: auto; /* This will enable horizontal scrolling */
+            overflow-y: auto; /* This will enable horizontal scrolling */
+            padding: 20px 10px; /* Adding some padding for better spacing */
+            align-items: center; /* Center children */
         }
 
         #heatmap-container {
@@ -147,8 +153,8 @@
             justify-content: center; /* Centers the heatmap horizontally */
             align-items: center; /* Centers the heatmap vertically */
             padding: 20px;
-            width: 100%; /* Takes up the full available width of its parent */
-            max-height: 50vh; /* Limits the height to 50% of the viewport height */
+            width: auto; /* Takes up the full available width of its parent */
+            max-height: 30vh; /* Limits the height to 50% of the viewport height */
             overflow-y: auto; /* Enables vertical scrolling when the content exceeds the container's height */
             overflow-x: auto; /* Enables horizontal scrolling when the content exceeds the container's width */
         }
@@ -164,22 +170,33 @@
             font-size: 8px;  /* Smaller text size for labels */
         }
 
+        /* Update the aphorism container to be initially hidden, center it, and adjust the width */
         #aphorisms-container {
-            display: flex;
+            width: 80%;  /* Adjust the width to 80% of the viewport for better side margins */
+            margin: 10px auto; /* Center it horizontally and add vertical spacing */
+            padding: 0; /* No additional padding inside the container */
+            visibility: hidden;  /* Keep all aphorisms initially hidden */
+            max-height: 30vh; /* Limits the height to 50% of the viewport height */
             flex-direction: column;
-            width: 100%;  /* Adjust width to match heatmap */
-            visibility: hidden;  /* Initially hide all aphorisms */
-            margin-top: 10px;  /* Space between heatmap and aphorisms */
-            padding: 0;
+            align-items: center; /* Center items vertically in the container */
+            justify-content: center; /* Center content horizontally */
         }
 
+        /* Adjust the appearance of individual aphorism items when they need to be visible */
         .aphorism-item {
-            display: none;  /* Hide all items initially */
+            display: none;
         }
 
         .aphorism-item.highlighted {
             display: flex;  /* Only display when highlighted */
             visibility: visible;  /* Make sure it's visible */
+            align-items: left;
+            font-size: 0.85rem; /* Smaller font size for better readability on small screens */
+            margin: 5px 0; /* Space between items for clarity */
+            padding: 10px; /* Ensure there's padding around the text for ease of reading */
+        }
+        .aphorism-item.highlighted span {
+            display: none;
         }
 
         .aphorism-content.visible {
@@ -195,8 +212,12 @@
             max-height: 25px;
         }
 
+       /* Adjust subtitle for mobile visibility */
         #subtitle-mobile {
             display: block;
+            font-size: 1.2rem;
+            text-align: left;
+            margin-top: 20px;
         }
     }
         
@@ -216,7 +237,7 @@
         <div id="heatmap-container">
             <!-- Heatmap SVG will be appended here -->
         </div>
-        <div id="subtitle-mobile"><h2>Selection</h2></div>
+        <div id="subtitle-mobile"><h3>Selection</h3></div>
         <div id="aphorisms-container">
             {% for aphorism in aphorisms %}
             <div class="aphorism-item" title="{{ aphorism.aphorism }}">
