@@ -308,7 +308,7 @@ function highlightMatchingGrids(chapter, startVerse, endVerse) {
         const rectStartVerse = parseInt(rect.getAttribute('data-start-verse'));
         const rectEndVerse = rect.getAttribute('data-end-verse') ? parseInt(rect.getAttribute('data-end-verse')) : rectStartVerse;
 
-        if (rectChapter == chapter && ((startVerse <= rectStartVerse && rectEndVerse <= endVerse) || (startVerse <= rectStartVerse && !endVerse))) {
+        if (rectChapter == chapter && ((startVerse <= rectStartVerse && rectEndVerse <= endVerse) || (startVerse == rectStartVerse && !endVerse))) {
             rect.classList.add('highlighted');
         }
     });
