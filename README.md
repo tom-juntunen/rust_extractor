@@ -73,4 +73,3 @@ venv\Scripts\activate
 pip install -r requirements.txt
 python .\viz.py
 ```
-![Translation Similarity of Job](images/job_draft.png)
