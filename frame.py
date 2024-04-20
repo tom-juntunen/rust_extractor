@@ -80,7 +80,7 @@ def update_aphorisms_file(api_response, filepath="data/aphorisms.json"):
         json.dump(data, file, indent=4)
 
 
-chapters = range(15, 42)
+chapters = range(250)
 for chapter in chapters:
 
     df = pd.read_csv("similarity_report.csv", header=0, encoding='utf-8').sort_values(by='Verse Key')
@@ -95,7 +95,7 @@ for chapter in chapters:
     # Provide me some aphorisms that are abstracted to real life concepts and adages from this bible chapter 
     # In addition to explaining the bible verse, come up with a real life story too
     # When you came up with the aphorisms were you able to identify a reference as far as chapter, verse range for each?
-    df2 = df[(df['Translation 1'] == 'World English Bible') & (df['Chapter'] == chapter)][['Text 1']]
+    df2 = df[(df['Translation 1'] == 'World English Bible') & (df['Chapter'] == chapter) & (df['Book ID'] == "PSA")][['Text 1']]
     df2['Text 1'] = df2['Text 1'].apply(lambda x: x.replace('“', '"')).apply(lambda x: x.replace('”', '"')).apply(lambda x: x.replace('’', "'")).apply(lambda x: x.replace('‘', "'"))
     script = '\n'.join(df2['Text 1'].tolist())
 
@@ -106,7 +106,7 @@ for chapter in chapters:
 
     Bible Chapter:
 
-        Book Name: Job
+        Book Name: Psalms
         Chapter Number: {chapter}
 
     Tasks:
@@ -155,7 +155,7 @@ for chapter in chapters:
 
     This structured prompt provides a comprehensive guideline for generating content that ties biblical teachings to practical, everyday applications, making ancient wisdom accessible and relevant to a modern audience.
 
-    Here is the reference to Job {chapter}:
+    Here is the reference to Psalms {chapter}:
     {script}
     """
 

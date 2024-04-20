@@ -73,3 +73,14 @@ venv\Scripts\activate
 pip install -r requirements.txt
 python .\viz.py
 ```
+
+### Build a cargo release
+`cargo build --release`
+
+### Run the release
+`./target/release/rust_extractor`
+
+##### References
+1. bible-api (https://bible-api.com/)
+2. esv_ranges.py (https://gist.github.com/eykd/842200)
+3. quran api (https://alquran.cloud/api)
